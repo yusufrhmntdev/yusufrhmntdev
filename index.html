@@ -1,801 +1,2699 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="id">
   <head>
-    <title>Resume Yusuf Rahmanto </title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/aos.css">
-    <link rel="stylesheet" href="css/ionicons.min.css">
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      // Set theme before first paint (no flash)
+      (function () {
+        try {
+          var t =
+            localStorage.getItem("theme") ||
+            (window.matchMedia("(prefers-color-scheme: light)").matches
+              ? "light"
+              : "dark");
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      })();
+    </script>
+    <title>Yusuf Rahmanto — Full-Stack Developer (Laravel, Yii2, Vue.js)</title>
+    <meta
+      name="description"
+      content="Portfolio Yusuf Rahmanto, Full-Stack Developer 5+ tahun. Spesialis PHP: Laravel, Yii2, CodeIgniter, Vue.js, MySQL, REST API, integrasi SAP B1, dan deployment server Linux."
+    />
+    <meta
+      name="keywords"
+      content="Yusuf Rahmanto, fullstack developer, web developer, Laravel developer, Yii2, PHP programmer, Vue.js, freelance developer Indonesia"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Yusuf Rahmanto" />
+    <meta name="theme-color" content="#0B0E14" />
+    <link rel="canonical" href="https://yusufrhmntdev.github.io/" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Yusuf Rahmanto Portfolio" />
+    <meta
+      property="og:title"
+      content="Yusuf Rahmanto — Full-Stack Developer (Laravel, Yii2, Vue.js)"
+    />
+    <meta
+      property="og:description"
+      content="Full-Stack Developer 5+ tahun. Spesialis PHP: Laravel, Yii2, Vue.js, MySQL, REST API, dan integrasi sistem."
+    />
+    <meta property="og:url" content="https://yusufrhmntdev.github.io/" />
+    <meta
+      property="og:image"
+      content="https://yusufrhmntdev.github.io/sc-portofolio/profile-yusuf-modified.png"
+    />
+    <meta property="og:locale" content="id_ID" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Yusuf Rahmanto — Full-Stack Developer (Laravel, Yii2, Vue.js)"
+    />
+    <meta
+      name="twitter:description"
+      content="Full-Stack Developer 5+ tahun. Spesialis PHP: Laravel, Yii2, Vue.js, MySQL, REST API."
+    />
+    <meta
+      name="twitter:image"
+      content="https://yusufrhmntdev.github.io/sc-portofolio/profile-yusuf-modified.png"
+    />
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23E53935'/%3E%3Cpath d='M16 14 L28 30 L28 50' stroke='%23fff' stroke-width='6' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3Cpath d='M40 14 L28 30' stroke='%23fff' stroke-width='6' stroke-linecap='round' fill='none'/%3E%3Cpath d='M28 30 H42 C47.5 30 51 26 51 21 C51 16 47.5 14 42 14 H28' stroke='%23fff' stroke-width='6' stroke-linecap='round' stroke-linejoin='round' fill='none'/%3E%3Cpath d='M37 30 L49 50' stroke='%23fff' stroke-width='6' stroke-linecap='round' fill='none'/%3E%3C/svg%3E"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
-    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <span>Y</span>R </a>
-        <button class="navbar-toggler js-fh5co-nav-toggle fh5co-nav-toggle" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="oi oi-menu"></span> Menu </button>
-        <div class="collapse navbar-collapse" id="ftco-nav">
-          <ul class="navbar-nav nav ml-auto">
-            <li class="nav-item">
-              <a href="#home-section" class="nav-link">
-                <span>Beranda</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#about-section" class="nav-link">
-                <span>Tentang Saya</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#resume-section" class="nav-link">
-                <span>Resume</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#projects-section" class="nav-link">
-                <span>Portofolio</span>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="#contact-section" class="nav-link">
-                <span>Kontak</span>
-              </a>
-            </li>
-          </ul>
+  <body>
+    <!-- Splash Screen with Spider-Man Icon & Counter -->
+    <div class="splash-screen" id="splashScreen">
+      <div class="splash-bg-glow"></div>
+      <div class="splash-content">
+        <div class="spidey-icon-wrap">
+          <svg class="spidey-icon" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Spider-Man Icon">
+            <defs>
+              <radialGradient id="spideyMaskGrad" cx="50%" cy="40%" r="60%">
+                <stop offset="0%" stop-color="#FF3838"/>
+                <stop offset="68%" stop-color="#D32F2F"/>
+                <stop offset="100%" stop-color="#8B0000"/>
+              </radialGradient>
+              <linearGradient id="spideyLensGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#FFFFFF"/>
+                <stop offset="65%" stop-color="#EBF4FF"/>
+                <stop offset="100%" stop-color="#B4D5FE"/>
+              </linearGradient>
+            </defs>
+
+            <!-- Mask Base Shape (Tapered Chin & Jaw) -->
+            <path d="M60 10 C32 10 22 34 22 62 C22 84 38 106 52 112 C57 114 63 114 68 112 C82 106 98 84 98 62 C98 34 88 10 60 10 Z" 
+                  fill="url(#spideyMaskGrad)" stroke="#1a0000" stroke-width="2.5"/>
+
+            <!-- Center Vertical Web -->
+            <path d="M60 10 L60 113" stroke="#2B0505" stroke-width="1.8" stroke-linecap="round"/>
+
+            <!-- Radial Web Lines from Nose Bridge (60, 56) -->
+            <path d="M60 56 Q42 28 32 18" stroke="#2B0505" stroke-width="1.5"/>
+            <path d="M60 56 Q78 28 88 18" stroke="#2B0505" stroke-width="1.5"/>
+            <path d="M60 56 Q34 40 23 44" stroke="#2B0505" stroke-width="1.5"/>
+            <path d="M60 56 Q86 40 97 44" stroke="#2B0505" stroke-width="1.5"/>
+            <path d="M60 56 Q30 70 25 78" stroke="#2B0505" stroke-width="1.5"/>
+            <path d="M60 56 Q90 70 95 78" stroke="#2B0505" stroke-width="1.5"/>
+            <path d="M60 56 Q40 94 42 105" stroke="#2B0505" stroke-width="1.5"/>
+            <path d="M60 56 Q80 94 78 105" stroke="#2B0505" stroke-width="1.5"/>
+
+            <!-- Concentric Arched Web Curves -->
+            <!-- Forehead Arcs -->
+            <path d="M47 34 Q60 28 73 34" stroke="#2B0505" stroke-width="1.5" fill="none"/>
+            <path d="M37 23 Q60 15 83 23" stroke="#2B0505" stroke-width="1.5" fill="none"/>
+            
+            <!-- Lower Face Arcs -->
+            <path d="M34 82 Q60 92 86 82" stroke="#2B0505" stroke-width="1.5" fill="none"/>
+            <path d="M44 98 Q60 105 76 98" stroke="#2B0505" stroke-width="1.5" fill="none"/>
+
+            <!-- Left Eye -->
+            <!-- Black Frame -->
+            <path d="M56 55 C52 46 41 33 26 38 C25 48 30 68 53 66 C55.5 66 56 61 56 55 Z" 
+                  fill="#0E1015" stroke="#000000" stroke-width="2"/>
+            <!-- White Lens with Metallic Blue-White Gradient -->
+            <path d="M53.5 55 C50 48 40 37 29 41 C28.5 48 32 64 50.5 63 C52.5 63 53.5 59 53.5 55 Z" 
+                  fill="url(#spideyLensGrad)"/>
+
+            <!-- Right Eye -->
+            <!-- Black Frame -->
+            <path d="M64 55 C68 46 79 33 94 38 C95 48 90 68 67 66 C64.5 66 64 61 64 55 Z" 
+                  fill="#0E1015" stroke="#000000" stroke-width="2"/>
+            <!-- White Lens with Metallic Blue-White Gradient -->
+            <path d="M66.5 55 C70 48 80 37 91 41 C91.5 48 88 64 69.5 63 C67.5 63 66.5 59 66.5 55 Z" 
+                  fill="url(#spideyLensGrad)"/>
+          </svg>
         </div>
-      </div>
-    </nav>
-    <section class="hero-wrap js-fullheight">
-      <div class="overlay"></div>
-      <div class="container">
-        <div class="row no-gutters slider-text js-fullheight justify-content-center align-items-center">
-          <div class="col-lg-8 col-md-6 ftco-animate d-flex align-items-center">
-            <div class="text text-center">
-              <span class="subheading">Hey! I am</span>
-              <h1>Yusuf Rahmanto</h1>
-              <h2>I'm a <span class="txt-rotate" data-period="2000" data-rotate='[ "Web Development." ]'></span>
-              </h2>
-            </div>
-          </div>
+        
+        <div class="splash-title">Yusuf Rahmanto</div>
+        <div class="splash-subtitle">
+          <span class="splash-pulse-dot"></span>
+          <span>Memuat Portofolio...</span>
         </div>
+
+        <div class="splash-progress-container">
+          <div class="splash-progress-bar" id="splashBar"></div>
+        </div>
+        <div class="splash-percent" id="splashPercent">0%</div>
       </div>
-      </div>
-      <div class="mouse">
-        <a href="#" class="mouse-icon">
-          <div class="mouse-wheel">
-            <span class="ion-ios-arrow-round-down"></span>
-          </div>
+    </div>
+
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Header -->
+    <header class="site-header hero-anim hero-anim-1">
+      <div class="container d-flex align-items-center justify-content-between">
+        <a
+          href="#"
+          class="d-flex align-items-center gap-2 text-decoration-none"
+        >
+          <span class="logo-mark" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 4 L10 11 L10 20" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M15 4 L10 11" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"/>
+              <path d="M10 11 H16 C18.2 11 19.5 9.5 19.5 7.5 C19.5 5.5 18.2 4 16 4 H10" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M14 11 L19 20" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <span class="logo-text text-white">Yusuf Rahmanto</span>
         </a>
-      </div>
-    </section>
-    <section class="ftco-about img ftco-section ftco-no-pt ftco-no-pb" id="about-section">
-      <div class="container">
-        <div class="row d-flex no-gutters">
-          <div class="col-md-6 col-lg-6 d-flex">
-            <div class="img-about img d-flex align-items-stretch">
-              <div class="overlay"></div>
-              <div class="img d-flex align-self-stretch align-items-center" style="background-image:url(images/profile_yusuf.png); width: 80%;"></div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6 pl-md-5 py-5">
-            <div class="row justify-content-start pb-3">
-              <div class="col-md-12 heading-section ftco-animate">
-                <!-- <h1 class="big">About</h1> -->
-                <h2 class="mb-4">Tentang Saya</h2>
-                <!-- <p>
-                                Hello, my name is Yusuf Rahmanto, I'm 25 years old, I am a graduate computer science in Indraprasta PGRI Univeristy and I am a creative person and I'm also a really cool person to hang out with. I like learning a lot in the computer world, like coding,
-                                it's interesting to me especially if coupled with a glass of coffee then it will be very interesting
-                            </p> -->
-                <!-- <p> Hello, perkenalkan nama saya yusuf rahmanto ,umur saya 25 tahun , latar belakang pendidikan saya adalah S1 Teknik informatika , saya memiliki pengalaman kerja di bidang IT 3 Tahun 5 Bulan  (IT Programming & IT Helpdesk ) , saya sangat senang  </p> -->
-                <p>Hello, perkenalkan nama saya yusuf rahmanto ,umur saya 27 tahun , saya memiliki latar belakang pendidikan S1 Teknik Informatika ,saya memiliki pengelaman di bidang IT 4 Tahun IT, dengan keahlian yang saya miliki saya dapat mengimplementasikan keahlian saya di bidang IT khsusunya di Aplikasi Pengembangan Web untuk kemajuan sebuah perusahaan di tempat saya bekerja terutama di bidang teknologinya . </p>
-                <ul class="about-info mt-4 px-md-0 px-2">
-                  <li class="d-flex">
-                    <span>Name:</span>
-                    <span>Yusuf Rahmanto</span>
-                  </li>
-                  <li class="d-flex">
-                    <span>Email:</span>
-                    <span>yusufrahmanto99@gmail.com</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="counter-wrap ftco-animate d-flex mt-md-3">
-              <div class="text">
-                <!-- <p class="mb-4"><span class="number" data-number="3">0</span><span>Project complete</span></p> -->
-                <!--                             <p><a href="" target="_blank" class="btn btn-primary py-3 px-3">Download CV</a></p> -->
-              </div>
-            </div>
-          </div>
+        <nav class="d-none d-lg-flex align-items-center gap-4">
+          <a href="#work" class="nav-link-custom">Proyek</a>
+          <a href="#skills" class="nav-link-custom">Keahlian</a>
+          <a href="#about" class="nav-link-custom">Tentang</a>
+          <a href="#contact" class="nav-link-custom">Kontak</a>
+        </nav>
+        <div class="d-flex align-items-center gap-2">
+          <button
+            class="theme-toggle"
+            id="themeToggle"
+            type="button"
+            aria-label="Toggle dark / light theme"
+          >
+            <i class="bi bi-moon-stars-fill" id="themeIcon"></i>
+          </button>
+          <a href="#contact" class="btn btn-sm-accent">Ajak Kolaborasi</a>
+          <button
+            class="nav-toggle d-lg-none"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#mobileMenu"
+            aria-controls="mobileMenu"
+            aria-label="Open menu"
+          >
+            <span></span><span></span><span></span>
+          </button>
         </div>
       </div>
-    </section>
-    <section class="ftco-section ftco-partner">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm ftco-animate">
-            <a href="#" class="partner">
-              <img src="images/partner-1.png" class="img-fluid" alt="Colorlib Template">
-            </a>
-          </div>
-          <div class="col-sm ftco-animate">
-            <a href="#" class="partner">
-              <img src="images/phplogo.png" class="img-fluid" alt="Colorlib Template">
-            </a>
-          </div>
-          <div class="col-sm ftco-animate">
-            <a href="#" class="partner">
-              <img src="images/laravel.png" class="img-fluid" alt="Colorlib Template" width="70%">
-            </a>
-          </div>
-          <div class="col-sm ftco-animate">
-            <a href="#" class="partner">
-              <img src="images/yii-logo.png" class="img-fluid" alt="Colorlib Template">
-            </a>
-          </div>
-          <div class="col-sm ftco-animate">
-            <a href="#" class="partner">
-              <img src="images/codeigniter.png" class="img-fluid" alt="Colorlib Template">
-            </a>
-          </div>
-          <div class="col-sm ftco-animate">
-            <a href="#" class="partner">
-              <img src="images/mysql_logo.png" class="img-fluid" alt="Colorlib Template">
-            </a>
-          </div>
-          <div class="col-sm ftco-animate">
-            <a href="#" class="partner">
-              <img src="images/js_logo.png" class="img-fluid" alt="Colorlib Template">
-            </a>
-          </div>
-        </div>
+    </header>
+
+    <!-- Mobile menu -->
+    <div
+      class="offcanvas offcanvas-end mobile-menu"
+      tabindex="-1"
+      id="mobileMenu"
+      aria-labelledby="mobileMenuLabel"
+    >
+      <div
+        class="offcanvas-header border-bottom"
+        style="border-color: var(--border) !important"
+      >
+        <span class="logo-mark" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M5 4 L10 11 L10 20" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M15 4 L10 11" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"/>
+            <path d="M10 11 H16 C18.2 11 19.5 9.5 19.5 7.5 C19.5 5.5 18.2 4 16 4 H10" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M14 11 L19 20" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span id="mobileMenuLabel" class="logo-text text-white me-auto ms-2"
+          >Yusuf Rahmanto</span
+        >
+        <button
+          type="button"
+          class="btn-close btn-close-white"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
       </div>
-    </section>
-    <section class="ftco-section ftco-no-pb goto-here" id="resume-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <nav id="navi">
-              <ul>
-                <li>
-                  <a href="#page-1">Pendidikan</a>
-                </li>
-                <li>
-                  <a href="#page-2">Pengalaman Kerja</a>
-                </li>
-                <li>
-                  <a href="#page-3">Skill</a>
-                </li>
-                <li>
-                  <a href="#page-4">Pelatihan</a>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div class="col-md-9">
-            <div id="page-1" class="page one">
-              <h2 class="heading">Pendidikan</h2>
-              <div class="resume-wrap d-flex ftco-animate">
-                <div class="icon d-flex align-items-center justify-content-center">
-                  <span class="flaticon-ideas"></span>
-                </div>
-                <div class="text pl-3">
-                  <span class="date">2015-2019</span>
-                  <h2>S1 Teknik Informatika</h2>
-                  <span class="position">Universitas Indraprasta PGRI</span>
-                </div>
-              </div>
-              <div class="resume-wrap d-flex ftco-animate">
-                <div class="icon d-flex align-items-center justify-content-center">
-                  <span class="flaticon-ideas"></span>
-                </div>
-                <div class="text pl-3">
-                  <span class="date">2012-2015</span>
-                  <h2>Teknik Komputer Jaringan</h2>
-                  <span class="position">SMK Pembangunan Jaya</span>
-                </div>
-              </div>
-              <div id="page-2" class="page two">
-                <h2 class="heading">Pengalaman Kerja</h2>
-                <div class="resume-wrap d-flex ftco-animate">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="flaticon-ideas"></span>
-                    </div>
-                    <div class="text pl-3">
-                      <span class="date">Juni,2024 - Sekarang</span>
-                      <h2>IT Application Support </h2>
-                      <span class="position">PT.Caturaga Tiara Persada (Reiwa)</span>
-                      <ol>
-                        <li style=" color:  black;">
-                          <b>Membuat website   (<a href="https://register.reiwa.co.id">register.reiwa.co.id</a>)  untuk klaim garansi, di mana customer dapat mengaktivasi garansi dan request layanan perbaikan menggunakan nomor serial number atau scan QRCode yang terdapat di product Reiwa . (Website ini di buat menggunakan Laravel dan terintegrasi dengan API Internal)
-                            </b>
-                        </li>
-                       
-                        <li style="color:black;">
-                          <b>Membuat dan mengelola website Geotagging untuk
-                            memungkinkan perusahaan memantau penyebaran lokasi
-                            penjualan dan memastikan apakah produk telah tersebar di
-                            seluruh Indonesia ( <a href="https://geotag.reiwa.co.id">geotag.reiwa.co.id</a>)
-                            </b>
-                        </li>
-                       
-                        <li style="color:black;">
-                          <b>Melakukan migrasi data dari sistem lama
-                            ke sistem baru, termasuk analisis, dan pemetaan data
-                            </b>
-                        </li>
-                        
-                       
-                        <li style=" color  :black   ;">
-                          <b>melakukan konfigurasi server Linux Ubuntu yang meliputi
-                            pengaturan firewall, menonaktifkan akses SSH root,
-                            membuat user baru dengan akses Ubuntu, mengganti port
-                            default SSH untuk keamanan,setup apache,php & mysql
-                            serta melakukan deployment website pada server
-                            </b>
-                        </li>
-                        
-                        <li style="color:black;">
-                          <b> membuat website untuk mengelola pengiriman slip gaji
-                            kepada karyawan, di mana HRD mengunggah file Excel
-                            yang berisi data gaji. File Excel tersebut kemudian diproses
-                            dan digenerate menjadi PDF, yang selanjutnya dikirimkan
-                            ke masing-masing karyawan secara otomatis.
-                             </b>
-                        </li>
-                        <li style="color:black;">
-                            <b> Bertanggung jawab untuk memantau dan mengawasi
-                                pengerjaan vendor dalam pengembangan aplikasi,
-                                memastikan bahwa progres sesuai dengan jadwal dan
-                                spesifikasi yang telah disepakati
-                                
-                               </b>
-                          </li>
-                          <li style="color:black;">
-                            <b> Membuat Akun Google Play Console & Apple Developer untuk apps Claim Warranty & Product Tracking agar bisa publish ke Google Play dan App Store
-                               </b>
-                          </li>
-                      </ol>
-                    </div>
-                  </div>
-             
-                <div class="resume-wrap d-flex ftco-animate">
-                  <div class="icon d-flex align-items-center justify-content-center">
-                    <span class="flaticon-ideas"></span>
-                  </div>
-                  <div class="text pl-3">
-                    <span class="date">Agustus,2021 - May, 2024</span>
-                    <h2>IT Application Support </h2>
-                    <span class="position">PT Graha Karya Informasi - PT Pluxee Indonesia</span>
-                    <ol>
-                      <li style=" color:  black;">
-                        <b> Pengembangan Web Converter Pluxee (<a href="https://tukar.pluxee.co.id/">tukar.pluxee.co.id </a>) dengan Integrasi API:</b>
-                      </li>
-                      <ul>
-                        <li> Integrasi dengan agregator Alterra Sepulsa (Pulsa Paket Data, PLN, M-Tix, Traveloka) untuk memungkinkan pengguna menukarkan voucher ePass Sodexo menjadi pulsa, paket data, dan PLN. </li>
-                        <li> Integrasi dengan agregatorQwikcilver (MAP, Matahari, Zalora) untuk memungkinkan pengguna menukarkan voucher ePass Sodexo menjadi E-Gift Card MAP , E-Gift Card Matahari & E-Gift Card Zalora </li>
-                      </ul>
-                      <li style="color:black;">
-                        <b>Integrasi API official store E-Commerce (Lazada & Blibli) ke dalam sistem internal Pluxee Indonesia </b>
-                      </li>
-                      <ul>
-                        <li> pembuatan middleware (backend-script) guna otomatisasi proses order dari platform e-commerce ke dalam aplikasi internal Pluxee. </li>
-                      </ul>
-                      <li style="color:black;">
-                        <b>Membuat Website Cari Merchant (<a href="https://lokasi merchant.pluxee.co.id">lokasi merchant.pluxee.co.id)</a> </b>
-                      </li>
-                      <ul>
-                        <li> Tujuan dari website ini adalah memberikan informasi kepada pengguna tentang kerjasama Pluxee Indonesia dengan merchant partner. Website ini dirancang untuk memberikan pengalaman pengguna yang informatif dan mudah dipahami, memudahkan pengguna dalam menemukan dan mengetahui lokasi serta informasi seputar kerjasama Pluxee Indonesia dengan merchant-merchant mitra mereka. </li>
-                      </ul>
-                      <li style="color:black;">
-                        <b>Membuat API untuk fitur Web Tukar </b>
-                      </li>
-                      <ul>
-                        <li> Membuat API untuk mengintegrasikan fitur web converter ke aplikasi Pluxee, memungkinkan pengguna mengakses fitur tersebut langsung dari aplikasi, memberikan kemudahan dalam transaksi konversi voucher. 
-                            (<a href="https://play.google.com/store/apps/details?id=com.sdxo.epass">https://play.google.com/store/apps/details?id=com.sdxo.epass</a>)
-                        </li>
-                      </ul>
-                      <li style=" color  :black   ;">
-                        <b>Maintenance Aplikasi Web Tukar, Cari Merchant ,Middleware (E-Commerce) & API Web Tukar</b>
-                      </li>
-                      <ul>
-                        <li> Melakukan pemeliharaan aplikasi Web tukar , Middleware ecommerce , Cari Merchant & API web tukar secara berkala. </li>
-                        <li> Menangani permasalahan atau isu yang muncul dengan segera </li>
-                      </ul>
-                      <li style="color:black;">
-                        <b> Pengembangan keamanan aplikasi Web Tukar melibatkan perbaruan berdasarkan hasil pemindaian Qualys dan Pengujian Penetrasi oleh pihak ketiga atau vendor, untuk memastikan keamanan yang optimal. </b>
-                      </li>
-                    </ol>
-                  </div>
-                </div>
-                <div class="resume-wrap d-flex ftco-animate">
-                  <div class="icon d-flex align-items-center justify-content-center">
-                    <span class="flaticon-ideas"></span>
-                  </div>
-                  <div class="text pl-3">
-                    <span class="date">January 2020 - Juni 2021</span>
-                    <h2>IT Help Desk</h2>
-                    <span class="position">Gobel Dharma Sarana Karya PT</span>
-                    <p>Membuat Portal Web untuk akses aplikasi perusahaan, melakukan pemeliharaan Web GDSK, menangani troubleshooting komputer</p>
-                  </div>
-                </div>
-                <div class="resume-wrap d-flex ftco-animate">
-                  <div class="icon d-flex align-items-center justify-content-center">
-                    <span class="flaticon-ideas"></span>
-                  </div>
-                  <div class="text pl-3">
-                    <span class="date">Febuary,2019 - December 2019</span>
-                    <h2>Internship</h2>
-                    <span class="position">Gobel Dharma Sarana Karya PT</span>
-                    <p>Mendukung Proyek HRIS (Human Resources Information System) dengan membuat master data menggunakan framework CI 3. Membuat laporan excel dengan menggunakan PhpExcel untuk Sistem Manajemen Waktu. Pengembangan sistem untuk Manajemen Akomodasi dan Pemeliharaan. </p>
-                  </div>
-                </div>
-                <div id="page-3" class="page three">
-                  <h2 class="heading">Skill</h2>
-                  <div class="row progress-circle mb-5">
-                    <div class="col-lg-3 mb-3">
-                      <div class="bg-white rounded-lg shadow p-4">
-                        <h2 class="h5 font-weight-bold text-center mb-4">Codeiginiter</h2>
-                        <!-- Progress bar 1 -->
-                        <div class="progress mx-auto" data-value='90'>
-                          <span class="progress-left">
-                            <span class="progress-bar border-primary"></span>
-                          </span>
-                          <span class="progress-right">
-                            <span class="progress-bar border-primary"></span>
-                          </span>
-                          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-                            <div class="h2 font-weight-bold">
-                              <sup class="small">CI</sup>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- END -->
-                        <!-- Demo info -->
-                        <div class="row text-center mt-4">
-                          <div class="col-12 border-right">
-                            <div class="h4 font-weight-bold mb-0"></div>
-                            <span class="small text-gray"></span>
-                          </div>
-                          <div class="col-6">
-                            <div class="h4 font-weight-bold mb-0"></div>
-                            <span class="small text-gray"></span>
-                          </div>
-                        </div>
-                        <!-- END -->
-                      </div>
-                    </div>
-                    <div class="col-lg-3 mb-3">
-                      <div class="bg-white rounded-lg shadow p-4">
-                        <h2 class="h5 font-weight-bold text-center mb-4">Laravel</h2>
-                        <!-- Progress bar 1 -->
-                        <div class="progress mx-auto" data-value='90'>
-                          <span class="progress-left">
-                            <span class="progress-bar border-primary"></span>
-                          </span>
-                          <span class="progress-right">
-                            <span class="progress-bar border-primary"></span>
-                          </span>
-                          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-                            <div class="h2 font-weight-bold">
-                              <sup class="small">Laravel</sup>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- END -->
-                        <!-- Demo info -->
-                        <div class="row text-center mt-4">
-                          <div class="col-6 border-right">
-                            <div class="h4 font-weight-bold mb-0"></div>
-                            <span class="small text-gray"></span>
-                          </div>
-                          <div class="col-6">
-                            <div class="h4 font-weight-bold mb-0"></div>
-                            <span class="small text-gray"></span>
-                          </div>
-                        </div>
-                        <!-- END -->
-                      </div>
-                    </div>
-                    <div class="col-lg-3 mb-3">
-                      <div class="bg-white rounded-lg shadow p-4">
-                        <h2 class="h5 font-weight-bold text-center mb-4">Yii-2</h2>
-                        <!-- Progress bar 1 -->
-                        <div class="progress mx-auto" data-value='90'>
-                          <span class="progress-left">
-                            <span class="progress-bar border-primary"></span>
-                          </span>
-                          <span class="progress-right">
-                            <span class="progress-bar border-primary"></span>
-                          </span>
-                          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-                            <div class="h2 font-weight-bold">
-                              <sup class="small">Yii-2</sup>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- END -->
-                        <!-- Demo info -->
-                        <div class="row text-center mt-4">
-                          <div class="col-6 border-right">
-                            <div class="h4 font-weight-bold mb-0"></div>
-                            <span class="small text-gray"></span>
-                          </div>
-                          <div class="col-6">
-                            <div class="h4 font-weight-bold mb-0"></div>
-                            <span class="small text-gray"></span>
-                          </div>
-                        </div>
-                        <!-- END -->
-                      </div>
-                    </div>
-                    <div class="col-lg-3 mb-3">
-                      <div class="bg-white rounded-lg shadow p-4">
-                        <h2 class="h5 font-weight-bold text-center mb-4">bootstrap </h2>
-                        <!-- Progress bar 1 -->
-                        <div class="progress mx-auto" data-value='90'>
-                          <span class="progress-left">
-                            <span class="progress-bar border-primary"></span>
-                          </span>
-                          <span class="progress-right">
-                            <span class="progress-bar border-primary"></span>
-                          </span>
-                          <div class="progress-value w-100 h-100 rounded-circle d-flex align-items-center justify-content-center">
-                            <div class="h2 font-weight-bold">
-                              <sup class="small">Bootstrap</sup>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- END -->
-                        <!-- Demo info -->
-                        <div class="row text-center mt-4">
-                          <div class="col-6 border-right">
-                            <div class="h4 font-weight-bold mb-0"></div>
-                            <span class="small text-gray"></span>
-                          </div>
-                          <div class="col-6">
-                            <div class="h4 font-weight-bold mb-0"></div>
-                            <span class="small text-gray"></span>
-                          </div>
-                        </div>
-                        <!-- END -->
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-6 animate-box">
-                      <div class="progress-wrap ftco-animate">
-                        <h3>Photoshop</h3>
-                        <div class="progress">
-                          <div class="progress-bar color-1" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 animate-box">
-                      <div class="progress-wrap ftco-animate">
-                        <h3>jQuery</h3>
-                        <div class="progress">
-                          <div class="progress-bar color-2" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 animate-box">
-                      <div class="progress-wrap ftco-animate">
-                        <h3>HTML5</h3>
-                        <div class="progress">
-                          <div class="progress-bar color-3" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:95%">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 animate-box">
-                      <div class="progress-wrap ftco-animate">
-                        <h3>CSS3</h3>
-                        <div class="progress">
-                          <div class="progress-bar color-4" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 animate-box">
-                      <div class="progress-wrap ftco-animate">
-                        <h3>Microsoft Office</h3>
-                        <div class="progress">
-                          <div class="progress-bar color-5" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="col-md-6 animate-box">
-                      <div class="progress-wrap ftco-animate">
-                        <h3>PHP</h3>
-                        <div class="progress">
-                          <div class="progress-bar color-6" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:90%">
-                            <span></span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div id="page-4" class="page four">
-                  <h2 class="heading">Pelatihan</h2>
-                  <div class="resume-wrap d-flex ftco-animate">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="flaticon-ideas"></span>
-                    </div>
-                    <div class="text pl-3">
-                      <span class="date">September-2019</span>
-                      <h2>Belajar Dasar Pemograman Web</h2>
-                      <span class="position">
-                        <img src="images/dicoding.png" class="img-fluid" width="100px">
-                      </span>
-                      <p> belajar online di dicoding</p>
-                      <p>
-                        <a href="cv/sertifikat.pdf" target="_blank" class="btn btn-primary py-3 px-3">Download Certificate</a>
-                      </p>
-                    </div>
-                  </div>
-                  <div class="resume-wrap d-flex ftco-animate">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="flaticon-ideas"></span>
-                    </div>
-                    <div class="text pl-3">
-                      <span class="date">Agustus-2022</span>
-                      <h2>Belajar Membuat Frontend Untuk Pemula</h2>
-                      <span class="position">
-                        <img src="images/dicoding.png" class="img-fluid" width="100px">
-                      </span>
-                      <p> belajar online di dicoding</p>
-                      <p>
-                        <a href="cv/belajar membuat frontend untuk pemula.pdf" target="_blank" class="btn btn-primary py-3 px-3">Download Certificate</a>
-                      </p>
-                    </div>
-                  </div>
-                  <div class="resume-wrap d-flex ftco-animate">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="flaticon-ideas"></span>
-                    </div>
-                    <div class="text pl-3">
-                      <span class="date">Juli-2023</span>
-                      <h2>Belajar Dasar Pemograman Javascript</h2>
-                      <span class="position">
-                        <img src="images/dicoding.png" class="img-fluid" width="100px">
-                      </span>
-                      <p> belajar online di dicoding</p>
-                      <p>
-                        <a href="cv/belajar dasar pemograman javascript.pdf" target="_blank" class="btn btn-primary py-3 px-3">Download Certificate</a>
-                      </p>
-                    </div>
-                  </div>
-                  <div class="resume-wrap d-flex ftco-animate">
-                    <div class="icon d-flex align-items-center justify-content-center">
-                      <span class="flaticon-ideas"></span>
-                    </div>
-                    <div class="text pl-3">
-                      <span class="date">September-2020</span>
-                      <h2>Belajar Fullstack Developer</h2>
-                      <span class="position">
-                        <img src="images/bwa.jpg" class="img-fluid" width="100px">
-                      </span>
-                      <p> belajar online di BWA</p>
-                      <p>
-                        <a href="cv/laravue.pdf" target="_blank" class="btn btn-primary py-3 px-3">Download Certificate</a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-    </section>
-    <!--  <section class="ftco-section" id="services-section"><div class="container-fluid px-md-5"><div class="row justify-content-center py-5 mt-5"><div class="col-md-12 heading-section text-center ftco-animate"><h1 class="big big-2">Services</h1><h2 class="mb-4">Services</h2><p>
-                        I opened a service for web development</p></div></div><div class="row"><div class="col-md-12 text-center d-flex ftco-animate"><a href="#" class="services-1 shadow"><span class="icon"><i class="flaticon-analysis"></i></span><div class="desc"><h3 class="mb-5">Web Development</h3><p>
-                                I have worked on several projects, which can be seen in the portfolio appendix below.</p></div></a></div></div></div></section> -->
-    <section class="ftco-section ftco-project" id="projects-section">
-      <div class="container-fluid px-md-5">
-        <div class="row no-gutters justify-content-center pb-5">
-          <div class="col-md-12 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Portofolio</h1>
-            <h2 class="mb-4">Portofolio</h2>
-          </div>
-        </div>
-        <div class="row no-gutters">
-          <div class="col-md-6">
-            <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url('images/demo/tukar-pluxee.png'); width: 100%">
-              <div class="overlay"></div>
-              <div class="text text-center p-4">
-                <h3>
-                  <a href="https://tukar.pluxee.co.id/" target="_blank">Tukar voucher Pluxee</a>
-                </h3>
-              </div>
-            </div>
-          </div>
-          <br>
-          <div class="col-md-6">
-            <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url('images/demo/lokasi-pluxee.png'); width: 100%">
-              <div class="overlay"></div>
-              <div class="text text-center p-4">
-                <h3>
-                  <a href="https://lokasimerchant.pluxee.co.id/" target="_blank">Pluxee Merchant </a>
-                </h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url('images/demo/register reiwa.png'); width: 100%">
-              <div class="overlay"></div>
-              <div class="text text-center p-4">
-                <h3>
-                  <a href="https://register.reiwa.co.id/" target="_blank">Klaim Garansi</a>
-                </h3>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url('images/demo/portal_gdsk.png'); width: 100%">
-              <div class="overlay"></div>
-              <div class="text text-center p-4">
-                <h3>
-                  <a href="https://portal.gdsk.co.id/" target="_blank">Portal GDSK</a>
-                </h3>
-              </div>
-            </div>
-          </div>
-          <!-- <div class="col-md-6"><div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/demo/covid19.JPG);"><div class="overlay"></div><div class="text text-center p-4"><h3><a href="http://datacovid19.epizy.com/" target="_blank">System informasi covid 19 (API Kawal Corona)</a></h3></div></div></div><div class="col-md-6"><div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/demo/peta_covid.JPG);"><div class="overlay"></div><div class="text text-center p-4"><h3><a href="http://datacovid19.epizy.com/" target="_blank">System informasi covid 19 (API Kawal Corona)</a></h3></div></div></div> -->
-        </div>
+      <div class="offcanvas-body">
+        <nav class="d-flex flex-column gap-1">
+          <a href="#work" class="mobile-nav-link" data-bs-dismiss="offcanvas"
+            >Proyek</a
+          >
+          <a href="#skills" class="mobile-nav-link" data-bs-dismiss="offcanvas"
+            >Keahlian</a
+          >
+          <a href="#about" class="mobile-nav-link" data-bs-dismiss="offcanvas"
+            >Tentang</a
+          >
+          <a href="#contact" class="mobile-nav-link" data-bs-dismiss="offcanvas"
+            >Kontak</a
+          >
+        </nav>
+        <a
+          href="#contact"
+          class="btn btn-accent w-100 mt-4"
+          data-bs-dismiss="offcanvas"
+          >Ajak Kolaborasi</a
+        >
       </div>
-    </section>
-    <!--    <section class="ftco-section ftco-no-pt ftco-no-pb ftco-counter img" id="section-counter"><div class="container-fluid px-md-5"><div class="row d-md-flex align-items-center"><div class="col-md d-flex justify-content-center counter-wrap ftco-animate"><div class="block-18 shadow"><div class="text"><strong class="number" data-number="100">0</strong><span>Awards</span></div></div></div><div class="col-md d-flex justify-content-center counter-wrap ftco-animate"><div class="block-18 shadow"><div class="text"><strong class="number" data-number="1200">0</strong><span>Complete Projects</span></div></div></div><div class="col-md d-flex justify-content-center counter-wrap ftco-animate"><div class="block-18 shadow"><div class="text"><strong class="number" data-number="1200">0</strong><span>Happy Customers</span></div></div></div><div class="col-md d-flex justify-content-center counter-wrap ftco-animate"><div class="block-18 shadow"><div class="text"><strong class="number" data-number="500">0</strong><span>Cups of coffee</span></div></div></div></div></div></section> -->
-    <!--   <section class="ftco-section ftco-hireme img" style="background-image: url(images/bg_1.jpg)"><div class="overlay"></div><div class="container"><div class="row justify-content-center"><div class="col-md-7 ftco-animate text-center"><h2>I'm <span>Available</span> for freelancing</h2><p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p><p class="mb-0"><a href="#" class="btn btn-primary py-3 px-5">Hire me</a></p></div></div></div></section> -->
-    <section class="ftco-section contact-section ftco-no-pb" id="contact-section">
+    </div>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-glow" aria-hidden="true"></div>
+
       <div class="container">
-        <div class="row justify-content-center mb-5 pb-3">
-          <div class="col-md-7 heading-section text-center ftco-animate">
-            <h1 class="big big-2">Contact</h1>
-            <h2 class="mb-4">Contact Me</h2>
-            <p></p>
-          </div>
-        </div>
-        <div class="row d-flex contact-info mb-5">
-          <div class="col-md-6 col-lg-6 d-flex ftco-animate">
-            <div class="align-self-stretch box text-center p-4 shadow">
-              <div class="icon d-flex align-items-center justify-content-center">
-                <span class="icon-paper-plane"></span>
-              </div>
-              <div>
-                <h3 class="mb-4">Email Address</h3>
-                <p>
-                  <a href="mailto:info@yoursite.com">yusufrahmanto99 @gmail.com</a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-6 d-flex ftco-animate">
-            <div class="align-self-stretch box text-center p-4 shadow">
-              <div class="icon d-flex align-items-center justify-content-center">
-                <span class="icon-globe"></span>
-              </div>
-              <div>
-                <h3 class="mb-4">Github</h3>
-                <small>
-                  <a href="#">yusufrhmntdev.github.io</a>
-                </small>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--  <div class="row no-gutters block-9"><div class="col-md-6 order-md-last d-flex"><form action="#" class="bg-light p-4 p-md-5 contact-form"><div class="form-group"><input type="text" class="form-control" placeholder="Your Name"></div><div class="form-group"><input type="text" class="form-control" placeholder="Your Email"></div><div class="form-group"><input type="text" class="form-control" placeholder="Subject"></div><div class="form-group"><textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Message"></textarea></div><div class="form-group"><input type="submit" value="Send Message" class="btn btn-primary py-3 px-5"></div></form></div><div class="col-md-6 d-flex"><div class="img" style="background-image: url(images/about.jpg);"></div></div></div></div> -->
-    </section>
-    <footer class="ftco-footer ftco-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">About</h2>
-              <p>Hello, perkenalkan nama saya yusuf rahmanto ,umur saya 25 tahun , saya memiliki latar belakang pendidikan S1 Teknik Informatika ,saya memiliki pengelaman di bidang IT 3,5 Tahun IT, dengan keahlian yang saya miliki saya dapat mengimplementasikan keahlian saya di bidang IT khsusunya di Aplikasi Pengembangan Web untuk kemajuan sebuah perusahaan di tempat saya bekerja terutama di bidang teknologinya . </p>
-              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate">
-                  <a href="https://www.linkedin.com/in/yusuf-rahmanto-b8b005182/" target="_blank">
-                    <span class="icon-linkedin"></span>
-                  </a>
-                </li>
-                <!--     <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li> -->
-                <li class="ftco-animate">
-                  <a href="https://www.instagram.com/yusufrahmanto22/" target="_blank">
-                    <span class="icon-instagram"></span>
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4 ml-md-4">
-              <h2 class="ftco-heading-2">Links</h2>
-              <ul class="list-unstyled">
-                <li>
-                  <a href="#">
-                    <span class="icon-long-arrow-right mr-2"></span>Home </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span class="icon-long-arrow-right mr-2"></span>About </a>
-                </li>
-                <!-- <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Services</a></li> -->
-                <li>
-                  <a href="#">
-                    <span class="icon-long-arrow-right mr-2"></span>Projects </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <span class="icon-long-arrow-right mr-2"></span>Contact </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <!-- <div class="col-md"><div class="ftco-footer-widget mb-4"><h2 class="ftco-heading-2">Services</h2><ul class="list-unstyled"><li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Web Development</a></li></ul></div></div> -->
-          <div class="col-md">
-            <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Have a Questions?</h2>
-              <div class="block-23 mb-3">
-                <ul>
-                  <li>
-                    <a href="#">
-                      <span class="icon icon-envelope"></span>
-                      <span class="text">yusufrahmanto99@gmail.com</span>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-12 text-center">
-            <p>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> Copyright &copy; YusufRahmanto <script>
-                document.write(new Date().getFullYear());
-              </script> All rights reserved
-              <!-- <div class="text-right"><small>This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></small></div> -->
+        <div class="row align-items-center g-5">
+          <div class="col-lg-7">
+            <span class="badge-available hero-anim hero-anim-1"
+              ><span class="badge-dot"></span> Siap untuk Full-time &amp;
+              Freelance</span
+            >
+            <h1 class="hero-title text-white hero-anim hero-anim-2">
+              Fullstack Developer
+            </h1>
+            <p class="hero-sub hero-anim hero-anim-3">
+              Saya mengembangkan aplikasi bisnis, mengintegrasikan berbagai
+              sistem, dan mengelola infrastruktur server untuk menghadirkan
+              solusi teknologi yang andal, efisien, dan sesuai kebutuhan
+              operasional perusahaan.
             </p>
+            <div class="hero-cta d-flex flex-wrap gap-3 hero-anim hero-anim-4">
+              <a href="#work" class="btn btn-accent">Lihat Portofolio</a>
+              <a
+                href="sc-portofolio/cv20261023.pdf"
+                class="btn btn-ghost"
+                target="_blank"
+                rel="noopener noreferrer"
+                download="CV-Yusuf-Rahmanto.pdf"
+              >
+                <i class="bi bi-file-earmark-arrow-down me-1"></i> Unduh CV
+              </a>
+            </div>
+            <div class="d-flex flex-wrap gap-5 mt-4 pt-3 hero-anim hero-anim-5">
+              <div>
+                <div
+                  class="stat-number text-white"
+                  data-count="5"
+                  data-suffix="+"
+                >
+                  0+
+                </div>
+                <div class="stat-label">Tahun Pengalaman</div>
+              </div>
+              <div>
+                <div
+                  class="stat-number text-white"
+                  data-count="7"
+                  data-suffix=""
+                >
+                  0
+                </div>
+                <div class="stat-label">Proyek Portofolio</div>
+              </div>
+            </div>
           </div>
+          <div class="col-lg-5">
+            <div class="code-window float hero-anim hero-anim-3">
+              <div class="code-titlebar">
+                <span class="code-dot" style="background: #ff5e57"></span>
+                <span class="code-dot" style="background: #febc2e"></span>
+                <span class="code-dot" style="background: #33c748"></span>
+                <span class="code-filename font-mono-custom"
+                  >portfolio.php</span
+                >
+              </div>
+              <div class="code-body font-mono-custom">
+                <div><span class="kw">&lt;?php</span></div>
+                <div><span class="kw">$developer</span> = [</div>
+                <div class="code-yellow">
+                  <div>&nbsp;&nbsp;'name' =&gt; "Yusuf Rahmanto",</div>
+                  <div>&nbsp;&nbsp;'role' =&gt; "Full-Stack Dev",</div>
+                  <div>&nbsp;&nbsp;'stack' =&gt; ["Laravel", "Yii2",</div>
+                  <div>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Vue
+                    JS", "jQuery"],
+                  </div>
+                </div>
+                <div>];</div>
+                <div>&nbsp;</div>
+                <div>
+                  <span class="kw">echo</span> json_encode($developer);<span
+                    class="code-caret"
+                  ></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="container">
+        <p class="kicker mb-2 reveal">Keahlian</p>
+        <h2
+          class="section-title text-white reveal"
+          style="transition-delay: 0.1s"
+        >
+          Teknologi &amp; Tools Andalan
+        </h2>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 reveal" style="transition-delay: 0.15s">
+            <div class="skill-group">
+              <div class="skill-group-header">
+                <span class="skill-group-icon"><i class="bi bi-code-slash"></i></span>
+                <h3 class="skill-group-title">Pengembangan Aplikasi</h3>
+              </div>
+              <span class="skill-chip"><i class="devicon-php-plain"></i> PHP</span>
+              <span class="skill-chip"><i class="devicon-laravel-original"></i> Laravel</span>
+              <span class="skill-chip"><i class="devicon-yii-plain"></i> Yii2</span>
+              <span class="skill-chip"><i class="devicon-codeigniter-plain"></i> CodeIgniter</span>
+              <span class="skill-chip"><i class="devicon-javascript-plain"></i> JavaScript</span>
+              <span class="skill-chip"><i class="devicon-vuejs-plain"></i> Vue.js</span>
+              <span class="skill-chip"><i class="devicon-html5-plain"></i> HTML</span>
+              <span class="skill-chip"><i class="devicon-bootstrap-plain"></i> Bootstrap</span>
+              <span class="skill-chip"><i class="devicon-jquery-plain"></i> jQuery</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 reveal" style="transition-delay: 0.2s">
+            <div class="skill-group">
+              <div class="skill-group-header">
+                <span class="skill-group-icon"><i class="bi bi-database-fill"></i></span>
+                <h3 class="skill-group-title">Manajemen Database</h3>
+              </div>
+              <span class="skill-chip"><i class="devicon-mysql-original"></i> MySQL</span>
+              <span class="skill-chip"><i class="devicon-mongodb-plain"></i> MongoDB</span>
+              <span class="skill-chip"><i class="bi bi-diagram-2"></i> Database Design</span>
+              <span class="skill-chip"><i class="bi bi-lightning-charge-fill"></i> Query Optimization</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 reveal" style="transition-delay: 0.25s">
+            <div class="skill-group">
+              <div class="skill-group-header">
+                <span class="skill-group-icon"><i class="bi bi-diagram-3-fill"></i></span>
+                <h3 class="skill-group-title">Integrasi API &amp; Sistem</h3>
+              </div>
+              <span class="skill-chip"><i class="bi bi-arrow-left-right"></i> REST API</span>
+              <span class="skill-chip"><i class="bi bi-braces"></i> JSON</span>
+              <span class="skill-chip"><i class="bi bi-puzzle-fill"></i> Third-Party API Integration</span>
+              <span class="skill-chip"><i class="bi bi-building-gear"></i> SAP Business One (SAP B1)</span>
+              <span class="skill-chip"><i class="bi bi-layers-half"></i> Middleware Development</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 reveal" style="transition-delay: 0.3s">
+            <div class="skill-group">
+              <div class="skill-group-header">
+                <span class="skill-group-icon"><i class="bi bi-hdd-network-fill"></i></span>
+                <h3 class="skill-group-title">Infrastruktur IT &amp; Server</h3>
+              </div>
+              <span class="skill-chip"><i class="devicon-ubuntu-plain"></i> Ubuntu Linux</span>
+              <span class="skill-chip"><i class="devicon-apache-plain"></i> Apache Web Server</span>
+              <span class="skill-chip"><i class="bi bi-sliders"></i> PHP Runtime Configuration</span>
+              <span class="skill-chip"><i class="bi bi-shield-shaded"></i> Firewall Configuration</span>
+              <span class="skill-chip"><i class="bi bi-terminal-fill"></i> SSH Security</span>
+              <span class="skill-chip"><i class="bi bi-globe2"></i> Domain Management</span>
+              <span class="skill-chip"><i class="bi bi-rocket-takeoff-fill"></i> Production Deployment</span>
+              <span class="skill-chip"><i class="bi bi-wrench-adjustable-circle-fill"></i> Server Troubleshooting</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 reveal" style="transition-delay: 0.35s">
+            <div class="skill-group">
+              <div class="skill-group-header">
+                <span class="skill-group-icon"><i class="bi bi-bar-chart-line-fill"></i></span>
+                <h3 class="skill-group-title">
+                  Business Intelligence &amp; Pelaporan
+                </h3>
+              </div>
+              <span class="skill-chip"><i class="bi bi-pie-chart-fill"></i> Metabase Dashboard</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 reveal" style="transition-delay: 0.4s">
+            <div class="skill-group">
+              <div class="skill-group-header">
+                <span class="skill-group-icon"><i class="bi bi-shield-check"></i></span>
+                <h3 class="skill-group-title">
+                  Dukungan Pengguna &amp; Keamanan
+                </h3>
+              </div>
+              <span class="skill-chip"><i class="bi bi-headset"></i> End-User Support</span>
+              <span class="skill-chip"><i class="bi bi-shield-check"></i> Application Maintenance</span>
+              <span class="skill-chip"><i class="bi bi-bug-fill"></i> Vulnerability Remediation</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 reveal" style="transition-delay: 0.45s">
+            <div class="skill-group">
+              <div class="skill-group-header">
+                <span class="skill-group-icon"><i class="bi bi-briefcase-fill"></i></span>
+                <h3 class="skill-group-title">
+                  Analisis Bisnis &amp; Koordinasi
+                </h3>
+              </div>
+              <span class="skill-chip"><i class="bi bi-clipboard2-check-fill"></i> Business Requirements Analysis</span>
+              <span class="skill-chip"><i class="bi bi-chat-dots-fill"></i> User Coordination</span>
+              <span class="skill-chip"><i class="bi bi-lightbulb-fill"></i> Technical Problem Solving</span>
+              <span class="skill-chip"><i class="bi bi-graph-up-arrow"></i> Business Process Improvement</span>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 reveal" style="transition-delay: 0.5s">
+            <div class="skill-group">
+              <div class="skill-group-header">
+                <span class="skill-group-icon"><i class="bi bi-tools"></i></span>
+                <h3 class="skill-group-title">Tools &amp; Lingkungan Kerja</h3>
+              </div>
+              <span class="skill-chip"><i class="devicon-git-plain"></i> Git</span>
+              <span class="skill-chip"><i class="bi bi-google-play"></i> Google Play Console</span>
+              <span class="skill-chip"><i class="devicon-vscode-plain"></i> VS Code</span>
+              <span class="skill-chip"><i class="devicon-postman-plain"></i> Postman</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section-alt" id="work">
+      <div class="container">
+        <p class="kicker mb-2 reveal">Proyek Pilihan</p>
+        <h2
+          class="section-title text-white reveal"
+          style="transition-delay: 0.1s"
+        >
+          Portofolio Unggulan
+        </h2>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 reveal" style="transition-delay: 0.15s">
+            <article class="project-card">
+              <div class="project-thumb thumb-mobile">
+                <div
+                  id="carousel-ecom"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                  data-bs-interval="3000"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="sc-portofolio/reiwa-cares-1.jpeg"
+                        alt="Reiwa Cares Mobile — Beranda"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="sc-portofolio/reiwa-cares-2.jpeg"
+                        alt="Reiwa Cares Mobile — Daftarkan Produk"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="sc-portofolio/reiwa-cares-3.jpeg"
+                        alt="Reiwa Cares Mobile — Detail Produk & Form"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="sc-portofolio/reiwa-cares-4.jpeg"
+                        alt="Reiwa Cares Mobile — Data Aktivasi Garansi"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="sc-portofolio/reiwa-cares-5.jpeg"
+                        alt="Reiwa Cares Mobile — Profil Pengguna"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="sc-portofolio/warranty-activation-1.png"
+                        alt="Reiwa Cares Web — Input Serial Number"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="sc-portofolio/warranty-activation-2.png"
+                        alt="Reiwa Cares Web — Registrasi & Data Diri"
+                      />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carousel-ecom"
+                    data-bs-slide="prev"
+                  >
+                    <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carousel-ecom"
+                    data-bs-slide="next"
+                  >
+                    <span class="carousel-control-next-icon"></span>
+                  </button>
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-ecom"
+                      data-bs-slide-to="0"
+                      class="active"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-ecom"
+                      data-bs-slide-to="1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-ecom"
+                      data-bs-slide-to="2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-ecom"
+                      data-bs-slide-to="3"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-ecom"
+                      data-bs-slide-to="4"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-ecom"
+                      data-bs-slide-to="5"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-ecom"
+                      data-bs-slide-to="6"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="text-white">Reiwa Cares</h3>
+                <p>
+                  Customer Warranty & Service Application (Web &amp; Mobile)
+                </p>
+                <a
+                  href="#"
+                  class="project-link"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal-ecom"
+                  >Lihat Detail Proyek &rarr;</a
+                >
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6 reveal" style="transition-delay: 0.3s">
+            <article class="project-card">
+              <div class="project-thumb thumb-mobile">
+                <div
+                  id="carousel-saas"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                  data-bs-interval="3000"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="sc-portofolio/reiwarrior-1.jpeg"
+                        alt="REIWARRIOR — Beranda Promotor"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="sc-portofolio/reiwarrior-2.jpeg"
+                        alt="REIWARRIOR — Performa &amp; Target Penjualan"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="sc-portofolio/reiwarrior-3.jpeg"
+                        alt="REIWARRIOR — Riwayat Penjualan"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="sc-portofolio/reiwarrior-5.jpeg"
+                        alt="REIWARRIOR — Stok &amp; Gift Received"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="sc-portofolio/reiwarrior-6.jpeg"
+                        alt="REIWARRIOR — Registrasi Penjualan"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="sc-portofolio/reiwarrior-4.jpeg"
+                        alt="REIWARRIOR — Profil Promotor"
+                      />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carousel-saas"
+                    data-bs-slide="prev"
+                  >
+                    <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carousel-saas"
+                    data-bs-slide="next"
+                  >
+                    <span class="carousel-control-next-icon"></span>
+                  </button>
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-saas"
+                      data-bs-slide-to="0"
+                      class="active"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-saas"
+                      data-bs-slide-to="1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-saas"
+                      data-bs-slide-to="2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-saas"
+                      data-bs-slide-to="3"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-saas"
+                      data-bs-slide-to="4"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-saas"
+                      data-bs-slide-to="5"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="text-white">REIWARRIOR</h3>
+                <p>Promoter Sales &amp; Gift Monitoring Application</p>
+                <a
+                  href="#"
+                  class="project-link"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal-saas"
+                  >Lihat Detail Proyek &rarr;</a
+                >
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6 reveal" style="transition-delay: 0.45s">
+            <article class="project-card">
+              <div class="project-thumb thumb-mobile">
+                <div
+                  id="carousel-task"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                  data-bs-interval="3000"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="sc-portofolio/aftersales-1.png"
+                        alt="After Sales — Daftar Tiket & Keluhan Servis"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="sc-portofolio/aftersales-2.png"
+                        alt="After Sales — Daftar Tiket & Keluhan Servis"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="sc-portofolio/aftersales-5.png"
+                        alt="After Sales — Dashboard Monitoring Operasional"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="sc-portofolio/aftersales-6.png"
+                        alt="After Sales — Verifikasi & Alokasi Suku Cadang"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="sc-portofolio/aftersales-3.png"
+                        alt="After Sales — Form Servis Teknisi"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="sc-portofolio/aftersales-4.png"
+                        alt="After Sales — Penggantian Suku Cadang"
+                      />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carousel-task"
+                    data-bs-slide="prev"
+                  >
+                    <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carousel-task"
+                    data-bs-slide="next"
+                  >
+                    <span class="carousel-control-next-icon"></span>
+                  </button>
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-task"
+                      data-bs-slide-to="0"
+                      class="active"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-task"
+                      data-bs-slide-to="1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-task"
+                      data-bs-slide-to="2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-task"
+                      data-bs-slide-to="3"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-task"
+                      data-bs-slide-to="4"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-task"
+                      data-bs-slide-to="5"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="text-white">
+                  After Sales Service Management System
+                </h3>
+                <p>
+                  Ticketing, Warranty, Service &amp; Spare Parts Management (Web
+                  &amp; API)
+                </p>
+                <a
+                  href="#"
+                  class="project-link"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal-task"
+                  >Lihat Detail Proyek &rarr;</a
+                >
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6 reveal" style="transition-delay: 0.15s">
+            <article class="project-card">
+              <div class="project-thumb thumb-mobile">
+                <div
+                  id="carousel-geotag"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                  data-bs-interval="3000"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="sc-portofolio/geotag-1.png"
+                        alt="Geotagging — Peta Persebaran Penjualan Indonesia"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="sc-portofolio/geotag-2.png"
+                        alt="Geotagging — Distribusi Penjualan per Wilayah"
+                      />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carousel-geotag"
+                    data-bs-slide="prev"
+                  >
+                    <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carousel-geotag"
+                    data-bs-slide="next"
+                  >
+                    <span class="carousel-control-next-icon"></span>
+                  </button>
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-geotag"
+                      data-bs-slide-to="0"
+                      class="active"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-geotag"
+                      data-bs-slide-to="1"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="text-white">
+                  Geotagging &amp; Sales Distribution Monitoring System
+                </h3>
+                <p>
+                  Geographic Sales Mapping &amp; Coverage Analytics
+                  (mktgeotag.reiwa.co.id)
+                </p>
+                <a
+                  href="#"
+                  class="project-link"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal-geotag"
+                  >Lihat Detail Proyek &rarr;</a
+                >
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6 reveal" style="transition-delay: 0.3s">
+            <article class="project-card">
+              <div class="project-thumb thumb-mobile">
+                <div
+                  id="carousel-voucher"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                  data-bs-interval="3000"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="sc-portofolio/tukar-pluxee-1.png"
+                        alt="Web Converter eVoucher — Validasi Kode Voucher"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="sc-portofolio/tukar-pluxee-2.png"
+                        alt="Web Converter eVoucher — Katalog Merchant &amp; Produk"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="sc-portofolio/tukar-pluxee-3.png"
+                        alt="Web Converter eVoucher — Konfirmasi Penukaran"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="sc-portofolio/tukar-pluxee-4.png"
+                        alt="Web Converter eVoucher — Bukti Penukaran Berhasil"
+                      />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carousel-voucher"
+                    data-bs-slide="prev"
+                  >
+                    <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carousel-voucher"
+                    data-bs-slide="next"
+                  >
+                    <span class="carousel-control-next-icon"></span>
+                  </button>
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-voucher"
+                      data-bs-slide-to="0"
+                      class="active"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-voucher"
+                      data-bs-slide-to="1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-voucher"
+                      data-bs-slide-to="2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-voucher"
+                      data-bs-slide-to="3"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="text-white">Web Converter eVoucher</h3>
+                <p>
+                  Pluxee Voucher Redemption &amp; Multi-Aggregator API
+                  Integration (tukar.pluxee.co.id)
+                </p>
+                <a
+                  href="#"
+                  class="project-link"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal-voucher"
+                  >Lihat Detail Proyek &rarr;</a
+                >
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6 reveal" style="transition-delay: 0.45s">
+            <article class="project-card">
+              <div class="project-thumb thumb-mobile">
+                <div
+                  id="carousel-locator"
+                  class="carousel slide"
+                  data-bs-ride="carousel"
+                  data-bs-interval="3000"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="sc-portofolio/lokasi-pluxee.png"
+                        alt="Merchant Locator — Beranda Pencarian Merchant"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="sc-portofolio/lokasi-pluxee-2.png"
+                        alt="Merchant Locator — Hasil Pencarian &amp; Filter Kategori"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="sc-portofolio/lokasi-pluxee-3.png"
+                        alt="Merchant Locator — Informasi Outlet &amp; Peta Lokasi"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="sc-portofolio/lokasi-pluxee-4.png"
+                        alt="Merchant Locator — Peta Interaktif &amp; Radius Merchant"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="sc-portofolio/lokasi-pluxee-5.png"
+                        alt="Merchant Locator — Direktori Merchant Partner"
+                      />
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="sc-portofolio/lokasi-pluxee-6.png"
+                        alt="Merchant Locator — Detail Merchant Partner"
+                      />
+                    </div>
+                  </div>
+                  <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#carousel-locator"
+                    data-bs-slide="prev"
+                  >
+                    <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#carousel-locator"
+                    data-bs-slide="next"
+                  >
+                    <span class="carousel-control-next-icon"></span>
+                  </button>
+                  <div class="carousel-indicators">
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-locator"
+                      data-bs-slide-to="0"
+                      class="active"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-locator"
+                      data-bs-slide-to="1"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-locator"
+                      data-bs-slide-to="2"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-locator"
+                      data-bs-slide-to="3"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-locator"
+                      data-bs-slide-to="4"
+                    ></button>
+                    <button
+                      type="button"
+                      data-bs-target="#carousel-locator"
+                      data-bs-slide-to="5"
+                    ></button>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <h3 class="text-white">Merchant Locator</h3>
+                <p>
+                  Pluxee Partner Merchant Directory &amp; Interactive
+                  Geolocation Search (lokasi.pluxee.co.id)
+                </p>
+                <a
+                  href="#"
+                  class="project-link"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal-locator"
+                  >Lihat Detail Proyek &rarr;</a
+                >
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6 reveal" style="transition-delay: 0.15s">
+            <article class="project-card">
+              <div class="project-thumb thumb-diagram">
+                <img
+                  src="sc-portofolio/middleware-architecture.jpeg"
+                  alt="E-Commerce Integration — Arsitektur Middleware Lazada &amp; Blibli"
+                />
+              </div>
+              <div class="card-body">
+                <h3 class="text-white">E-Commerce Integration</h3>
+                <p>
+                  Lazada &amp; Blibli Marketplace API Integration &amp; Order
+                  Middleware Automation
+                </p>
+                <a
+                  href="#"
+                  class="project-link"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal-ecommerce"
+                  >Lihat Detail Proyek &rarr;</a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-4 reveal">
+            <div class="about-profile-card">
+              <div class="about-avatar-wrap">
+                <img
+                  src="sc-portofolio/profile-yusuf-modified.png"
+                  alt="Yusuf Rahmanto"
+                  class="about-avatar-img"
+                />
+              </div>
+              <h3 class="about-card-name">Yusuf Rahmanto</h3>
+              <p class="about-card-role">Fullstack Developer</p>
+              <div class="about-card-badge">
+                <span class="badge-dot pulse"></span>
+                Terbuka untuk Peluang Kerja
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 reveal" style="transition-delay: 0.15s">
+            <p class="kicker mb-2">Tentang Saya</p>
+            <h2 class="about-title text-white">Fullstack Developer <br /></h2>
+            <p class="about-text">
+              Halo! Saya Yusuf Rahmanto, lulusan S1 Teknik Informatika dengan
+              pengalaman lebih dari 5 tahun di bidang IT. Berpengalaman dalam
+              pengembangan aplikasi web, integrasi API, optimasi database,
+              hingga pengelolaan server &amp; pengolahan data SAP Business One
+              (SAP B1). Selain kemampuan teknis, saya terbiasa menganalisis
+              kebutuhan bisnis, memecahkan kendala sistem, dan menghadirkan
+              solusi digital untuk meningkatkan efisiensi operasional. Siap
+              berkolaborasi dan berkontribusi optimal guna mendukung tujuan
+              bisnis perusahaan. Portofolio:
+              <a
+                href="https://yusufrhmntdev.github.io/yusufrhmntdev/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style="color: var(--accent); text-decoration: underline"
+                >https://yusufrhmntdev.github.io/yusufrhmntdev/</a
+              >
+            </p>
+
+            <div class="mt-4">
+              <div class="timeline-item">
+                <span class="timeline-year">Juni 2024 — Sekarang</span>
+                <span class="timeline-role text-white">IT Developer</span>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-year">Agustus 2021 — Mei 2024</span>
+                <span class="timeline-role text-white">IT Application</span>
+              </div>
+              <div class="timeline-item">
+                <span class="timeline-year">Jan 2020 — Juni 2021</span>
+                <span class="timeline-role text-white">IT Helpdesk</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section section-alt" id="education">
+      <div class="container">
+        <p class="kicker mb-2 reveal">Pendidikan</p>
+        <h2
+          class="section-title text-white reveal"
+          style="transition-delay: 0.1s"
+        >
+          Belajar &amp; Terus Bertumbuh
+        </h2>
+        <div class="row g-4">
+          <div class="col-md-4 reveal">
+            <div class="edu-card">
+              <div class="edu-icon"><i class="bi bi-mortarboard-fill"></i></div>
+              <span class="edu-year">2015 — 2019</span>
+              <h3 class="edu-degree">Teknik Informatika (S1)</h3>
+              <p class="edu-school">Universitas Indraprasta PGRI</p>
+              <p class="edu-note">
+                Fokus pada rekayasa perangkat lunak dan sistem informasi.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 reveal" style="transition-delay: 0.12s">
+            <div class="edu-card">
+              <div class="edu-icon">
+                <i class="bi bi-rocket-takeoff-fill"></i>
+              </div>
+              <span class="edu-year">2019 -2023</span>
+              <h3 class="edu-degree">Belajar Dasar Pemograman Web</h3>
+              <h3 class="edu-degree">Belajar Membuat Frontend Untuk Pemula</h3>
+              <h3 class="edu-degree">Belajar Dasar Pemograman Javascript</h3>
+              <p class="edu-school">Dicoding — Web Development Program</p>
+              <p class="edu-note">Program Online</p>
+            </div>
+          </div>
+          <div class="col-md-4 reveal" style="transition-delay: 0.24s">
+            <div class="edu-card">
+              <div class="edu-icon"><i class="bi bi-award-fill"></i></div>
+              <span class="edu-year">2020</span>
+              <h3 class="edu-degree">Belajar Fullstack Developer</h3>
+              <p class="edu-school">BWA - Fullstack Laravel Vue JS</p>
+              <p class="edu-note">Program Online</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="section pb-5" id="contact">
+      <div class="container">
+        <div class="cta-banner reveal">
+          <h2 class="gradient-text">Tertarik Bekerja Sama?</h2>
+          <p>
+            Terbuka untuk posisi full-time maupun proyek freelance. Siap
+            berdiskusi untuk kebutuhan teknologi di tim Anda.
+          </p>
+          <a
+            href="mailto:yusufrahmanto99@gmail.com"
+            class="btn btn-accent px-4 py-2"
+            ><i class="bi bi-send-fill me-2"></i>Hubungi Saya</a
+          >
+
+          <!-- Social Media & Contact Links -->
+          <div class="cta-socials">
+            <a
+              href="https://yusufrhmntdev.github.io/yusufrhmntdev/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="cta-social-link"
+              title="GitHub Profile"
+            >
+              <i class="bi bi-github"></i>
+              <span>GitHub</span>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/yusuf-rahmanto-b8b005182/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="cta-social-link"
+              title="LinkedIn Profile"
+            >
+              <i class="bi bi-linkedin"></i>
+              <span>LinkedIn</span>
+            </a>
+            <a
+              href="mailto:yusufrahmanto99@gmail.com"
+              class="cta-social-link"
+              title="Kirim Email"
+            >
+              <i class="bi bi-envelope-at-fill"></i>
+              <span>yusufrahmanto99@gmail.com</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div
+        class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-3"
+      >
+        <span>&copy; 2026 Yusuf Rahmanto</span>
+        <div class="footer-links">
+          <a
+            href="https://yusufrhmntdev.github.io/yusufrhmntdev/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="bi bi-github me-1"></i>GitHub</a
+          >
+          <a
+            href="https://www.linkedin.com/in/yusuf-rahmanto-b8b005182/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><i class="bi bi-linkedin me-1"></i>LinkedIn</a
+          >
+          <a href="mailto:yusufrahmanto99@gmail.com"
+            ><i class="bi bi-envelope-at-fill me-1"></i>Email</a
+          >
         </div>
       </div>
     </footer>
-    <!-- loader -->
-    <div id="ftco-loader" class="show fullscreen">
-      <svg class="circular" width="48px" height="48px">
-        <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
-        <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00" />
-      </svg>
+
+    <!-- Case study modals -->
+    <div
+      class="modal fade"
+      id="modal-ecom"
+      tabindex="-1"
+      aria-labelledby="modal-ecom-label"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable"
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="modal-ecom-label">Reiwa Cares</h3>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h4>Ringkasan Proyek</h4>
+            <p>
+              Mengembangkan portal website aktivasi garansi serta merancang dan
+              memelihara seluruh layanan <strong>REST API backend</strong> untuk
+              ekosistem Reiwa Cares. API ini menjadi tulang punggung integrasi
+              data yang dikonsumsi oleh aplikasi mobile (Android/iOS) dan web
+              portal untuk kebutuhan aktivasi garansi produk, riwayat layanan
+              perbaikan, hingga sinkronisasi data pelanggan. Bertanggung jawab
+              atas deployment aplikasi web ke server production, keamanan data,
+              pemeliharaan layanan API, serta koordinasi langsung dengan end
+              user.
+            </p>
+            <h4>Peran &amp; Tanggung Jawab</h4>
+            <p>
+              <strong
+                >Backend &amp; Web Developer (API &amp; Web Portal)</strong
+              >
+            </p>
+            <ul>
+              <li>
+                <strong>Web Portal:</strong> Full-stack development untuk portal
+                klaim dan aktivasi garansi berbasis web.
+              </li>
+              <li>
+                <strong>Mobile Backend:</strong> Penyediaan endpoint REST API
+                yang aman &amp; optimal untuk konsumsi aplikasi mobile REIWA.
+              </li>
+              <li>
+                <strong>DevOps &amp; Infra:</strong> Deployment server
+                production, konfigurasi database, dan monitoring uptime layanan.
+              </li>
+            </ul>
+            <h4 style="margin-top: 24px">Fitur Utama</h4>
+            <ul>
+              <li>Customer Warranty Activation</li>
+              <li>Repair Service Request &amp; Tracking</li>
+              <li>Customer Promo &amp; Product Catalogs</li>
+            </ul>
+            <h4 style="margin-top: 24px">Tampilan Versi Website</h4>
+            <div class="row g-3 modal-web-gallery mb-4">
+              <div class="col-sm-6">
+                <div class="modal-web-item">
+                  <img
+                    src="sc-portofolio/warranty-activation-1.png"
+                    alt="Reiwa Cares Web — Input Serial Number"
+                  />
+                  <span>1. Input Serial Number &amp; Scan QR</span>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="modal-web-item">
+                  <img
+                    src="sc-portofolio/warranty-activation-2.png"
+                    alt="Reiwa Cares Web — Form Registrasi"
+                  />
+                  <span>2. Detail Produk &amp; Data Diri</span>
+                </div>
+              </div>
+            </div>
+
+            <h4 style="margin-top: 24px">Tampilan Versi Mobile App</h4>
+            <div
+              class="modal-note mb-3"
+              style="
+                background: rgba(229, 57, 53, 0.08);
+                border-left: 3px solid var(--accent);
+                padding: 10px 14px;
+                border-radius: 6px;
+                font-size: 13.5px;
+                color: var(--text);
+                line-height: 1.6;
+              "
+            >
+              * Desain UI/UX &amp; client-side mobile dikembangkan oleh tim
+              mobile terpisah; seluruh alur data, autentikasi, dan fitur
+              didukung penuh oleh REST API backend yang saya bangun.
+            </div>
+            <div class="modal-gallery">
+              <div class="modal-gallery-item">
+                <img
+                  src="sc-portofolio/reiwa-cares-1.jpeg"
+                  alt="Reiwa Cares Mobile Beranda"
+                />
+                <span>Beranda</span>
+              </div>
+              <div class="modal-gallery-item">
+                <img
+                  src="sc-portofolio/reiwa-cares-2.jpeg"
+                  alt="Reiwa Cares Mobile Daftarkan Produk"
+                />
+                <span>Daftarkan Produk</span>
+              </div>
+              <div class="modal-gallery-item">
+                <img
+                  src="sc-portofolio/reiwa-cares-3.jpeg"
+                  alt="Reiwa Cares Mobile Detail Produk"
+                />
+                <span>Detail &amp; Form</span>
+              </div>
+              <div class="modal-gallery-item">
+                <img
+                  src="sc-portofolio/reiwa-cares-4.jpeg"
+                  alt="Reiwa Cares Mobile Data Aktivasi Garansi"
+                />
+                <span>Data Garansi</span>
+              </div>
+              <div class="modal-gallery-item">
+                <img
+                  src="sc-portofolio/reiwa-cares-5.jpeg"
+                  alt="Reiwa Cares Mobile Profil Akun"
+                />
+                <span>Profil Akun</span>
+              </div>
+            </div>
+            <h4 style="margin-top: 24px">Teknologi yang Digunakan</h4>
+            <div>
+              <span class="tech-badge"><i class="devicon-yii-plain"></i> Yii2</span>
+              <span class="tech-badge"><i class="devicon-php-plain"></i> PHP</span>
+              <span class="tech-badge"><i class="bi bi-arrow-left-right"></i> REST API</span>
+              <span class="tech-badge"><i class="devicon-mysql-original"></i> MySQL</span>
+              <span class="tech-badge"><i class="devicon-mongodb-plain"></i> MongoDB</span>
+            </div>
+          </div>
+          <div
+            class="modal-footer d-flex flex-wrap gap-2 justify-content-between align-items-center"
+          >
+            <div class="d-flex flex-wrap gap-2">
+              <a
+                href="https://register.reiwa.co.id/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-accent px-3"
+                ><i class="bi bi-globe me-1"></i>Visit Website &rarr;</a
+              >
+              <a
+                href="https://play.google.com/store/apps/details?id=id.co.reiwa.reiwacustomers&hl=en"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-accent px-3"
+                style="background: #2e7d32; border-color: #2e7d32"
+                ><i class="bi bi-google-play me-1"></i>Download App</a
+              >
+            </div>
+            <button type="button" class="btn btn-ghost" data-bs-dismiss="modal">
+              Tutup
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery-migrate-3.0.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.stellar.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/jquery.animateNumber.min.js"></script>
-    <script src="js/scrollax.min.js"></script>
-    <script src="js/main.js"></script>
+
+    <div
+      class="modal fade"
+      id="modal-saas"
+      tabindex="-1"
+      aria-labelledby="modal-saas-label"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable"
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="modal-saas-label">REIWARRIOR</h3>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h4>Ringkasan Proyek</h4>
+            <p>
+              Mengembangkan dan memelihara API untuk aplikasi Reiwa Warrior yang
+              digunakan promotor dalam mendukung aktivitas penjualan produk
+              &amp; Gift Monitoring. Bertanggung jawab atas deployment aplikasi
+              web pendukung ke server production, pemeliharaan layanan API,
+              serta komunikasi langsung dengan end user untuk mengidentifikasi
+              kebutuhan, menangani permasalahan teknis, dan mendukung kelancaran
+              operasional aplikasi.
+            </p>
+            <h4>Peran &amp; Tanggung Jawab</h4>
+            <p>
+              <strong
+                >Backend &amp; Web Developer (API &amp; Web Backend)</strong
+              >
+            </p>
+            <ul>
+              <li>
+                <strong>API Backend:</strong> Merancang dan membangun endpoint
+                REST API untuk alur transaksi penjualan, monitoring gift, dan
+                data promotor pada aplikasi mobile.
+              </li>
+              <li>
+                <strong>Web Backend:</strong> Mengembangkan modul web backend
+                untuk manajemen data penjualan serta sistem Gift Monitoring.
+              </li>
+              <li>
+                <strong>Production Deployment:</strong> Mengelola deployment
+                aplikasi ke server production dan memastikan stabilitas layanan
+                API.
+              </li>
+              <li>
+                <strong>User Communication:</strong> Berkomunikasi langsung
+                dengan end user untuk menggali kebutuhan fitur baru dan
+                menyelesaikan troubleshooting teknis harian.
+              </li>
+            </ul>
+            <h4 style="margin-top: 24px">Fitur Utama</h4>
+            <ul>
+              <li>Promoter Sales Activity &amp; Product Logging</li>
+              <li>Gift Monitoring &amp; Redemption Tracking</li>
+              <li>REST API Service for Mobile Promoter</li>
+              <li>Production Web Deployment &amp; Server Maintenance</li>
+            </ul>
+            <h4 style="margin-top: 24px">Tampilan Aplikasi Mobile Promotor</h4>
+            <div class="modal-gallery">
+              <div class="modal-gallery-item">
+                <img
+                  src="sc-portofolio/reiwarrior-1.jpeg"
+                  alt="REIWARRIOR Beranda Promotor"
+                />
+                <span>Beranda</span>
+              </div>
+              <div class="modal-gallery-item">
+                <img
+                  src="sc-portofolio/reiwarrior-2.jpeg"
+                  alt="REIWARRIOR Performa &amp; Target Penjualan"
+                />
+                <span>Performa &amp; Target</span>
+              </div>
+              <div class="modal-gallery-item">
+                <img
+                  src="sc-portofolio/reiwarrior-3.jpeg"
+                  alt="REIWARRIOR Riwayat Penjualan"
+                />
+                <span>Riwayat Penjualan</span>
+              </div>
+              <div class="modal-gallery-item">
+                <img
+                  src="sc-portofolio/reiwarrior-5.jpeg"
+                  alt="REIWARRIOR Gift Received"
+                />
+                <span>Gift Monitoring</span>
+              </div>
+              <div class="modal-gallery-item">
+                <img
+                  src="sc-portofolio/reiwarrior-6.jpeg"
+                  alt="REIWARRIOR Registrasi Penjualan"
+                />
+                <span>Registrasi</span>
+              </div>
+              <div class="modal-gallery-item">
+                <img
+                  src="sc-portofolio/reiwarrior-4.jpeg"
+                  alt="REIWARRIOR Profil Promotor"
+                />
+                <span>Profil Akun</span>
+              </div>
+            </div>
+            <div
+              style="
+                margin-top: 10px;
+                padding: 10px 14px;
+                background: rgba(229, 57, 53, 0.08);
+                border: 1px solid rgba(229, 57, 53, 0.35);
+                border-radius: 8px;
+                font-size: 12px;
+                color: var(--text);
+                line-height: 1.5;
+              "
+            >
+              <i
+                class="bi bi-shield-lock-fill"
+                style="color: var(--accent); margin-right: 6px"
+              ></i>
+              <strong>Privasi Data:</strong> Seluruh informasi sensitif seperti
+              nominal harga produk, identitas promotor, dan email telah disensor
+              demi mematuhi kebijakan kerahasiaan &amp; kepatuhan data.
+            </div>
+            <div
+              style="
+                margin-top: 10px;
+                padding: 12px 16px;
+                background: rgba(229, 57, 53, 0.08);
+                border: 1px solid rgba(229, 57, 53, 0.35);
+                border-radius: 8px;
+                font-size: 13px;
+                color: var(--text);
+                line-height: 1.6;
+              "
+            >
+              <i
+                class="bi bi-info-circle-fill"
+                style="color: var(--accent); margin-right: 6px"
+              ></i>
+              <strong>Catatan Peran:</strong> Desain UI/UX dan aplikasi Android
+              dikembangkan oleh tim mobile, sementara seluruh alur integrasi
+              data transaksi, validasi API, backend manajemen, serta
+              pemeliharaan server ditangani secara langsung oleh saya.
+            </div>
+            <h4 style="margin-top: 24px">Teknologi yang Digunakan</h4>
+            <div>
+              <span class="tech-badge"><i class="devicon-php-plain"></i> PHP</span>
+              <span class="tech-badge"><i class="devicon-yii-plain"></i> Yii2</span>
+              <span class="tech-badge"><i class="bi bi-arrow-left-right"></i> REST API</span>
+              <span class="tech-badge"><i class="devicon-mysql-original"></i> MySQL</span>
+              <span class="tech-badge"><i class="devicon-ubuntu-plain"></i> Ubuntu Linux</span>
+            </div>
+          </div>
+          <div
+            class="modal-footer d-flex justify-content-between align-items-center"
+          >
+            <span class="badge-internal">
+              <i class="bi bi-shield-lock-fill"></i>
+              Internal Application (Promoter Access Only)
+            </span>
+            <button type="button" class="btn btn-ghost" data-bs-dismiss="modal">
+              Tutup
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal-task"
+      tabindex="-1"
+      aria-labelledby="modal-task-label"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable"
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="modal-task-label">
+              After Sales Service Management System
+            </h3>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h4>Ringkasan Proyek</h4>
+            <p>
+              Mengembangkan dan memelihara API serta aplikasi web untuk
+              mendukung proses bisnis after sales, meliputi pengelolaan tiket
+              keluhan pelanggan, garansi, servis, dan suku cadang. Sistem
+              digunakan oleh tim Customer Service, Admin Service, dan Teknisi,
+              serta terintegrasi dengan Reiwa Cares untuk menghubungkan proses
+              layanan pelanggan dengan operasional internal. Bertanggung jawab
+              atas deployment aplikasi ke production server, pemeliharaan API,
+              troubleshooting, serta koordinasi langsung dengan end user untuk
+              menganalisis kebutuhan dan memastikan solusi yang dikembangkan
+              sesuai kebutuhan operasional.
+            </p>
+            <h4>Peran &amp; Tanggung Jawab</h4>
+            <p>
+              <strong
+                >Full-Stack &amp; API Developer (Web Application &amp; Backend
+                API)</strong
+              >
+            </p>
+            <ul>
+              <li>
+                <strong>API &amp; System Integration:</strong> Mengembangkan
+                endpoint REST API untuk sinkronisasi tiket servis, validasi
+                garansi, dan integrasi dua arah dengan sistem Reiwa Cares.
+              </li>
+              <li>
+                <strong>Web Application:</strong> Membangun antarmuka web untuk
+                pengelolaan alur tiket servis, registrasi keluhan pelanggan,
+                penugasan teknisi, serta monitoring stok &amp; penggantian suku
+                cadang.
+              </li>
+              <li>
+                <strong>Production Deployment &amp; Server Maintenance:</strong>
+                Mengelola deployment aplikasi web dan API ke server production
+                Ubuntu, memastikan ketersediaan layanan dan keandalan query
+                database operasional.
+              </li>
+              <li>
+                <strong>End-User Coordination:</strong> Berkomunikasi intensif
+                dengan Customer Service, Admin Service, dan Teknisi untuk
+                menganalisis alur kerja nyata, menangani troubleshooting, serta
+                mengembangkan pembaruan fitur yang tepat guna.
+              </li>
+            </ul>
+            <h4 style="margin-top: 24px">Fitur Utama</h4>
+            <ul>
+              <li>Customer Complaint &amp; Service Ticketing Lifecycle</li>
+              <li>Warranty Validation &amp; Repair Status Monitoring</li>
+              <li>Technician Assignment &amp; Repair Action Logging</li>
+              <li>
+                Spare Parts Inventory Management &amp; Replacement Tracking
+              </li>
+              <li>Seamless Integration with Reiwa Cares Customer Portal</li>
+              <li>
+                Multi-Role Access (Customer Service, Admin Service, Teknisi)
+              </li>
+            </ul>
+
+            <h4 style="margin-top: 24px">Tampilan Web Management System</h4>
+            <div class="row g-3 modal-web-gallery mb-3">
+              <div class="col-sm-6">
+                <div class="modal-web-item">
+                  <img
+                    src="sc-portofolio/aftersales-1.png"
+                    alt="After Sales — Login"
+                  />
+                  <span>1. Login </span>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="modal-web-item">
+                  <img
+                    src="sc-portofolio/aftersales-2.png"
+                    alt="After Sales — Detail Penanganan Tiket Servis"
+                  />
+                  <span>2. Total Ticket Per Area</span>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="modal-web-item">
+                  <img
+                    src="sc-portofolio/aftersales-5.png"
+                    alt="After Sales — Dashboard Monitoring &amp; Laporan"
+                  />
+                  <span>3. Detail Penanganan Tiket Servis</span>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="modal-web-item">
+                  <img
+                    src="sc-portofolio/aftersales-6.png"
+                    alt="After Sales — Verifikasi Tiket &amp; Suku Cadang"
+                  />
+                  <span>4. Tracking Serial Number </span>
+                </div>
+              </div>
+            </div>
+
+            <h4 style="margin-top: 24px">
+              Tampilan Form Teknisi / Mobile View
+            </h4>
+            <div class="modal-gallery">
+              <div class="modal-gallery-item" style="flex: 0 0 160px">
+                <img
+                  src="sc-portofolio/aftersales-3.png"
+                  alt="After Sales — Form Input Servis Teknisi"
+                  style="aspect-ratio: auto; height: 210px; object-fit: contain"
+                />
+                <span>Form Input Servis</span>
+              </div>
+              <div class="modal-gallery-item" style="flex: 0 0 160px">
+                <img
+                  src="sc-portofolio/aftersales-4.png"
+                  alt="After Sales — Penggantian Suku Cadang"
+                  style="aspect-ratio: auto; height: 210px; object-fit: contain"
+                />
+                <span>Penggantian Suku Cadang</span>
+              </div>
+            </div>
+
+            <h4 style="margin-top: 24px">Teknologi yang Digunakan</h4>
+            <div>
+              <span class="tech-badge"><i class="devicon-php-plain"></i> PHP</span>
+              <span class="tech-badge"><i class="devicon-laravel-original"></i> Laravel</span>
+              <span class="tech-badge"><i class="devicon-vuejs-plain"></i> Vue JS</span>
+              <span class="tech-badge"><i class="bi bi-arrow-left-right"></i> REST API</span>
+              <span class="tech-badge"><i class="devicon-mysql-original"></i> MySQL</span>
+              <span class="tech-badge"><i class="devicon-bootstrap-plain"></i> Bootstrap</span>
+              <span class="tech-badge"><i class="devicon-ubuntu-plain"></i> Ubuntu Linux</span>
+            </div>
+          </div>
+          <div
+            class="modal-footer d-flex justify-content-between align-items-center"
+          >
+            <span class="badge-internal">
+              <i class="bi bi-shield-lock-fill"></i>
+              Internal Enterprise System (Restricted)
+            </span>
+            <button type="button" class="btn btn-ghost" data-bs-dismiss="modal">
+              Tutup
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal-geotag"
+      tabindex="-1"
+      aria-labelledby="modal-geotag-label"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable"
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="modal-geotag-label">
+              Geotagging &amp; Sales Distribution Monitoring System
+            </h3>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h4>Ringkasan Proyek</h4>
+            <p>
+              Mengembangkan aplikasi web Geotagging (mktgeotag.reiwa.co.id)
+              untuk memvisualisasikan persebaran penjualan produk berdasarkan
+              wilayah dan provinsi di Indonesia. Sistem ini membantu perusahaan
+              memantau cakupan penjualan secara geografis dan mengidentifikasi
+              wilayah yang telah terjangkau distribusi produk. Bertanggung jawab
+              atas pengembangan aplikasi web, deployment ke production server,
+              serta koordinasi langsung dengan end user untuk mengidentifikasi
+              kebutuhan dan menangani kendala teknis.
+            </p>
+            <h4>Peran &amp; Tanggung Jawab</h4>
+            <p>
+              <strong
+                >Full-Stack Web Developer (Web Application &amp; Server
+                Deployment)</strong
+              >
+            </p>
+            <ul>
+              <li>
+                <strong>Geospatial Data Visualization:</strong> Membangun
+                antarmuka peta interaktif untuk memetakan volume penjualan dan
+                jangkauan distribusi produk di seluruh wilayah Indonesia.
+              </li>
+              <li>
+                <strong>Regional Aggregation &amp; Filtering:</strong>
+                Mengembangkan fitur filter interaktif berdasarkan provinsi,
+                kota/kabupaten, kategori produk, dan periode waktu secara
+                dinamis.
+              </li>
+              <li>
+                <strong>Production Deployment:</strong> Bertanggung jawab atas
+                deployment aplikasi ke server Ubuntu production, konfigurasi web
+                server Apache, subdomain (mktgeotag.reiwa.co.id), serta
+                sertifikat SSL/HTTPS.
+              </li>
+              <li>
+                <strong>End-User Coordination:</strong> Berkoordinasi langsung
+                dengan tim marketing/sales dan manajemen untuk menggali
+                kebutuhan analisis pasar serta memastikan visualisasi data mudah
+                diinterpretasikan.
+              </li>
+            </ul>
+            <h4 style="margin-top: 24px">Fitur Utama</h4>
+            <ul>
+              <li>Interactive Indonesia Geographic Map &amp; Sales Heatmap</li>
+              <li>Provincial &amp; Regional Distribution Analytics</li>
+              <li>
+                Dynamic Filters (Province, Regency, Product Model, Period)
+              </li>
+              <li>Production Web Deployment (mktgeotag.reiwa.co.id)</li>
+              <li>Market Penetration &amp; Distribution Gap Analysis</li>
+            </ul>
+
+            <h4 style="margin-top: 24px">Tampilan Aplikasi Web Geotagging</h4>
+            <div class="row g-3 modal-web-gallery mb-3">
+              <div class="col-sm-6">
+                <div class="modal-web-item">
+                  <img
+                    src="sc-portofolio/geotag-1.png"
+                    alt="Geotagging — Peta Persebaran Penjualan Indonesia"
+                  />
+                  <span>1. Login </span>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="modal-web-item">
+                  <img
+                    src="sc-portofolio/geotag-2.png"
+                    alt="Geotagging — Detail Distribusi Penjualan per Provinsi"
+                  />
+                  <span>2. Distribusi &amp; Penjualan</span>
+                </div>
+              </div>
+            </div>
+
+            <h4 style="margin-top: 24px">Teknologi yang Digunakan</h4>
+            <div>
+              <span class="tech-badge"><i class="devicon-php-plain"></i> PHP</span>
+              <span class="tech-badge"><i class="devicon-laravel-plain"></i> Laravel</span>
+              <span class="tech-badge"><i class="devicon-javascript-plain"></i> JavaScript</span>
+              <span class="tech-badge"><i class="devicon-mysql-original"></i> MySQL</span>
+              <span class="tech-badge"><i class="devicon-bootstrap-plain"></i> Bootstrap</span>
+              <span class="tech-badge"><i class="devicon-apache-plain"></i> Apache</span>
+              <span class="tech-badge"><i class="devicon-ubuntu-plain"></i> Ubuntu Linux</span>
+            </div>
+          </div>
+          <div
+            class="modal-footer d-flex justify-content-between align-items-center"
+          >
+            <span class="badge-internal">
+              <i class="bi bi-shield-lock-fill"></i>
+              Internal Marketing Tool (VPN / Restricted)
+            </span>
+            <button type="button" class="btn btn-ghost" data-bs-dismiss="modal">
+              Tutup
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal-voucher"
+      tabindex="-1"
+      aria-labelledby="modal-voucher-label"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable"
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="modal-voucher-label">
+              Web Converter eVoucher
+            </h3>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h4>Ringkasan Proyek</h4>
+            <p>
+              Mengembangkan Web Converter Pluxee (tukar.pluxee.co.id) untuk
+              mendukung proses penukaran voucher digital (eVoucher) ke berbagai
+              layanan digital dan merchant ritel terkemuka secara real-time.
+              Sistem ini mengintegrasikan multi-aggregator API, meliputi Alterra
+              Sepulsa untuk layanan biller digital (pulsa seluler, paket data,
+              token PLN, tiket bioskop M-Tix, Traveloka, dan voucher game Mobile
+              Legends), serta Qwikcilver untuk penerbitan e-gift card ritel
+              seperti MAP, Matahari, dan Zalora. Bertanggung jawab atas
+              perancangan alur transaksi penukaran yang aman.
+            </p>
+            <h4>Peran &amp; Tanggung Jawab</h4>
+            <p>
+              <strong>Full-Stack &amp; API Integration Developer</strong>
+            </p>
+            <ul>
+              <li>
+                <strong>Multi-Aggregator API Integration:</strong> Merancang dan
+                membangun integrasi REST API dengan aggregator pihak ketiga
+                (Alterra Sepulsa &amp; Qwikcilver) menggunakan otentikasi
+                signature dan enkripsi request yang aman.
+              </li>
+              <li>
+                <strong>Transaction Engine &amp; Callback Handling:</strong>
+                Membangun alur penukaran voucher, memvalidasi status
+                kode voucher Pluxee, convert voucher merchant dan kirim hasil convert vouchernya ke email
+              </li>
+             
+            
+            </ul>
+            <h4 style="margin-top: 24px">Fitur Utama</h4>
+            <ul>
+              <li>
+                Multi-Aggregator Integration (Alterra Sepulsa &amp; Qwikcilver)
+              </li>
+              <li>
+                Wide Digital Catalog: Pulsa, Data, PLN, M-Tix, Traveloka, Mobile
+                Legends
+              </li>
+              <li>Retail E-Gift Card Issuance: MAP, Matahari, Zalora</li>
+           
+              <li>
+                  Transaction Logging
+              </li>
+       
+            </ul>
+
+            <h4 style="margin-top: 24px">
+              Tampilan Aplikasi Web Converter Pluxee
+            </h4>
+            <div class="row g-3 modal-web-gallery mb-3">
+              <div class="col-sm-6">
+                <div class="modal-web-item">
+                  <img
+                    src="sc-portofolio/tukar-pluxee-1.png"
+                    alt="Pluxee — Validasi Kode Voucher"
+                  />
+                  <span>1. Pilih Merchant</span>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="modal-web-item">
+                  <img
+                    src="sc-portofolio/tukar-pluxee-2.png"
+                    alt="Pluxee — Katalog Merchant &amp; Produk"
+                  />
+                  <span>2. Login Page</span>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="modal-web-item">
+                  <img
+                    src="sc-portofolio/tukar-pluxee-3.png"
+                    alt="Pluxee — Konfirmasi Penukaran Voucher"
+                  />
+                  <span>3. Konfirmasi Nomor &amp; Data Penukaran Voucher</span>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="modal-web-item">
+                  <img
+                    src="sc-portofolio/tukar-pluxee-4.png"
+                    alt="Pluxee — Bukti Penukaran Berhasil"
+                  />
+                  <span>4. Cek Status Voucher</span>
+                </div>
+              </div>
+            </div>
+
+            <h4 style="margin-top: 24px">Teknologi yang Digunakan</h4>
+            <div>
+              <span class="tech-badge"><i class="devicon-php-plain"></i> PHP</span>
+              <span class="tech-badge"><i class="devicon-yii-plain"></i> Yii2</span>
+              <span class="tech-badge"><i class="bi bi-arrow-left-right"></i> REST API</span>
+              <span class="tech-badge"><i class="bi bi-puzzle-fill"></i> Third-Party API Integration</span>
+              <span class="tech-badge"><i class="bi bi-lightning-charge-fill"></i> Alterra Sepulsa API</span>
+              <span class="tech-badge"><i class="bi bi-gift-fill"></i> Qwikcilver API</span>
+              <span class="tech-badge"><i class="devicon-mysql-original"></i> MySQL</span>
+              <span class="tech-badge"><i class="devicon-bootstrap-plain"></i> Bootstrap</span>
+             
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a
+              href="https://tukar.pluxee.co.id"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-accent px-4"
+              >Visit live site &rarr;</a
+            >
+            <button type="button" class="btn btn-ghost" data-bs-dismiss="modal">
+              Tutup
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal-locator"
+      tabindex="-1"
+      aria-labelledby="modal-locator-label"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable"
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="modal-locator-label">
+              Merchant Locator
+            </h3>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h4>Ringkasan Proyek</h4>
+            <p>
+              Mengembangkan aplikasi web Merchant Locator Pluxee
+              (lokasi.pluxee.co.id) untuk memudahkan pengguna dalam mencari
+              informasi lokasi outlet dan merchant partner penerima voucher
+              Pluxee di seluruh Indonesia. Sistem ini dilengkapi fitur pencarian
+              pintar berbasis kata kunci, filter kategori bisnis (makanan &amp;
+              minuman, fashion, gaya hidup, supermarket, dll.), serta integrasi
+              peta digital interaktif dan geolokasi pengguna untuk menampilkan
+              outlet terdekat secara akurat dan real-time. Bertanggung jawab
+              atas pengembangan antarmuka web yang responsif, optimalisasi kueri
+              database lokasi dan koordinat spasial, integrasi API pemetaan,
+              deployment ke server production, serta pemeliharaan performa dan
+              ketersediaan data merchant.
+            </p>
+            <h4>Peran &amp; Tanggung Jawab</h4>
+            <p>
+              <strong>Full-Stack &amp; Geolocation Developer</strong>
+            </p>
+            <ul>
+              <li>
+                <strong>Interactive Mapping &amp; Geolocation Search:</strong>
+                Mengintegrasikan peta digital dan layanan geolokasi browser
+                untuk mendeteksi posisi pengguna secara otomatis serta memetakan
+                pin outlet merchant terdekat dalam radius tertentu.
+              </li>
+              <li>
+                <strong>Search &amp; Multi-Filtering Engine:</strong> Membangun
+                fitur pencarian cepat berdasarkan nama merchant,  kota, dan kategori bisnis dengan
+                query untuk performa optimal.
+              </li>
+              <li>
+                <strong
+                  >Merchant Database &</strong
+                >
+                Merancang struktur database relasional untuk menyimpan ribuan
+                outlet merchant partner, mengoptimalkan indexing koordinat
+                lintang/bujur (latitude/longitude)
+              </li>
+              <li>
+                <strong
+                  >Responsive Web UI &amp; Cross-Device Compatibility:</strong
+                >
+                Mengembangkan antarmuka web yang clean, modern, dan
+                mobile-friendly sehingga pengguna dapat dengan mudah mencari
+                merchant langsung melalui smartphone maupun desktop.
+              </li>
+             
+            </ul>
+            <h4 style="margin-top: 24px">Fitur Utama</h4>
+            <ul>
+              <li>Interactive Merchant Map</li>
+              <li>
+                Proximity Search based on User Geolocation (Radius Filtering)
+              </li>
+              <li>
+                 Keyword Search (City, Brand)
+              </li>
+              <li>
+                Detailed Merchant Profiles: Outlet Address, Operating Hours,
+                Accepted Vouchers &amp; Directions
+              </li>
+              <li>
+                Fast Response Time with  Database Indexing
+              </li>
+              <li>Fully Responsive Design for Mobile &amp; Desktop Users</li>
+        
+            </ul>
+
+            <h4 style="margin-top: 24px">
+              Tampilan Aplikasi Merchant Locator Pluxee
+            </h4>
+            <div class="row g-3 modal-web-gallery mb-3">
+              <div class="col-sm-6">
+                <div class="modal-web-item">
+                  <img
+                    src="sc-portofolio/lokasi-pluxee.png"
+                    alt="Merchant Locator — Beranda Pencarian &amp; Navigasi"
+                  />
+                  <span>1. Beranda Pencarian &amp; Navigasi Merchant</span>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="modal-web-item">
+                  <img
+                    src="sc-portofolio/lokasi-pluxee-2.png"
+                    alt="Merchant Locator — Hasil Pencarian &amp; Filter Kategori"
+                  />
+                  <span>2. Rekomendasi Merchant</span>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="modal-web-item">
+                  <img
+                    src="sc-portofolio/lokasi-pluxee-3.png"
+                    alt="Merchant Locator — Informasi Lengkap Outlet"
+                  />
+                  <span>3. All Merchant</span>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="modal-web-item">
+                  <img
+                    src="sc-portofolio/lokasi-pluxee-4.png"
+                    alt="Merchant Locator — Peta Interaktif &amp; Radius Merchant"
+                  />
+                  <span>4. Footer</span>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="modal-web-item">
+                  <img
+                    src="sc-portofolio/lokasi-pluxee-5.png"
+                    alt="Merchant Locator — Direktori Merchant Partner"
+                  />
+                  <span
+                    >5. Lokasi Outlet Merchant</span
+                  >
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="modal-web-item">
+                  <img
+                    src="sc-portofolio/lokasi-pluxee-6.png"
+                    alt="Merchant Locator — Detail Merchant Partner"
+                  />
+                  <span
+                    >6. Penyebaran Outlet Merchant</span
+                  >
+                </div>
+              </div>
+            </div>
+
+            <h4 style="margin-top: 24px">Teknologi yang Digunakan</h4>
+            <div>
+              <span class="tech-badge"><i class="devicon-php-plain"></i> PHP</span>
+              <span class="tech-badge"><i class="devicon-yii-plain"></i> Yii2</span>
+              <span class="tech-badge"><i class="devicon-javascript-plain"></i> JavaScript</span>
+              <span class="tech-badge"><i class="bi bi-geo-alt-fill"></i> Maps API (Google Maps / Leaflet)</span>
+              <span class="tech-badge"><i class="bi bi-compass-fill"></i> Geolocation API</span>
+              <span class="tech-badge"><i class="devicon-mysql-original"></i> MySQL</span>
+              <span class="tech-badge"><i class="devicon-bootstrap-plain"></i> Bootstrap</span>
+              <span class="tech-badge"><i class="devicon-apache-plain"></i> Apache</span>
+     
+            </div>
+          </div>
+          <div class="modal-footer">
+            <a
+              href="https://lokasi.pluxee.co.id"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-accent px-4"
+              >Visit live site &rarr;</a
+            >
+            <button type="button" class="btn btn-ghost" data-bs-dismiss="modal">
+              Tutup
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="modal-ecommerce"
+      tabindex="-1"
+      aria-labelledby="modal-ecommerce-label"
+      aria-hidden="true"
+    >
+      <div
+        class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable"
+      >
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="modal-ecommerce-label">
+              E-Commerce Integration
+            </h3>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <h4>Ringkasan Proyek</h4>
+            <p>
+              Mengembangkan arsitektur middleware dan backend services untuk
+              mengintegrasikan Application Programming Interface (API) resmi
+              marketplace terkemuka seperti Lazada (Open Platform API) dan
+              Blibli (Merchant Open API) dengan sistem internal perusahaan.
+              Solusi ini mengotomatisasi alur pemrosesan pesanan (order
+              fulfillment pipeline) Bertanggung jawab atas perancangan integrasi
+              sistem, otentikasi API berstandar keamanan tinggi (HMAC signature
+              &amp; OAuth 2.0 token management), pengelolaan automated cron job &amp; task
+              scheduler untuk pemrosesan transaksi berkala
+            </p>
+            <h4>Peran &amp; Tanggung Jawab</h4>
+            <p>
+              <strong>Backend &amp; Middleware Integration Developer</strong>
+            </p>
+            <ul>
+              <li>
+                <strong
+                  >Marketplace API Integration (Lazada &amp; Blibli):</strong
+                >
+                Mengimplementasikan integrasi protokol API resmi marketplace
+                mencakup autentikasi token OAuth 2.0, signature HMAC security,
+                endpoint order fetching & create Voucher
+              </li>
+             
+              <li>
+                <strong>Automated Cron Job &amp; Task Scheduler:</strong>
+                Membangun skrip cron job di server Linux yang berjalan otomatis secara berkala
+                untuk menarik (fetch), memvalidasi, dan memproses data transaksi serta
+                sinkronisasi status pesanan secara konsisten dan terhindar dari duplikasi.
+              </li>
+             
+              <li>
+                <strong>Error Handling, Audit Trail &amp; Logging:</strong>
+                Menyediakan sistem logging transaksi komprehensif untuk memantau
+                traffic API, mencatat response code, serta mempercepat
+                investigasi anomali transaksi atau pesanan gagal.
+              </li>
+              <li>
+                <strong>Production Deployment &amp; Server Stability:</strong>
+                Mengelola konfigurasi environment, deployment backend services
+                ke server production Linux Ubuntu, serta pemeliharaan keandalan
+                background process (systemd / supervisor).
+              </li>
+            </ul>
+            <h4 style="margin-top: 24px">Fitur Utama</h4>
+            <ul>
+              <li>End-to-End Automated Order Processing Pipeline</li>
+              <li>
+                Official Marketplace Open API Integration (Lazada Open Platform
+                &amp; Blibli Merchant API)
+              </li>
+              <li>
+                Real-Time Webhook  &amp; Automated Cron Job Scheduler
+              </li>
+              <li>
+                Order Status Synchronization
+              </li>
+              <li>
+                Secure HMAC-SHA256 Signature &amp; OAuth 2.0 Token Refresh
+                Management
+              </li>
+              <li>
+                Transaction Audit
+                Logging
+              </li>
+             
+            </ul>
+
+            <h4 style="margin-top: 24px">
+              Diagram Arsitektur Sistem Middleware
+            </h4>
+            <div
+              class="modal-web-item mb-3"
+              style="max-width: 100%; text-align: center"
+            >
+              <a
+                href="sc-portofolio/middleware-architecture.jpeg"
+                target="_blank"
+                title="Klik untuk membuka ukuran penuh"
+              >
+                <img
+                  src="sc-portofolio/middleware-architecture.jpeg"
+                  alt="E-Commerce Integration — Diagram Arsitektur Middleware"
+                  style="
+                    width: 100%;
+                    height: auto;
+                    border-radius: 12px;
+                    border: 1px solid var(--border);
+                    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+                    cursor: zoom-in;
+                  "
+                />
+              </a>
+              <div
+                style="
+                  display: flex;
+                  justify-content: space-between;
+                  align-items: center;
+                  margin-top: 10px;
+                  flex-wrap: wrap;
+                  gap: 8px;
+                "
+              >
+                <span
+                  style="font-size: 13px; color: var(--muted); text-align: left"
+                >
+                  Alur Integrasi API Marketplace (Lazada &amp; Blibli) &rarr;
+                  Middleware Transformation &amp; Cron Job &rarr; Database
+                  &amp; Internal Systems
+                </span>
+                <a
+                  href="sc-portofolio/middleware-architecture.jpeg"
+                  target="_blank"
+                  class="btn btn-sm btn-ghost"
+                  style="font-size: 12px; padding: 4px 10px"
+                >
+                  <i class="bi bi-arrows-fullscreen me-1"></i> Buka Ukuran Penuh
+                </a>
+              </div>
+            </div>
+
+            <h4 style="margin-top: 24px">Teknologi yang Digunakan</h4>
+            <div>
+              <span class="tech-badge"><i class="devicon-php-plain"></i> PHP</span>
+              <span class="tech-badge"><i class="devicon-yii-plain"></i> Yii2</span>
+              <span class="tech-badge"><i class="bi bi-arrow-left-right"></i> REST API</span>
+              <span class="tech-badge"><i class="bi bi-shop"></i> Lazada Open Platform API</span>
+              <span class="tech-badge"><i class="bi bi-bag-check-fill"></i> Blibli Merchant API</span>
+              <span class="tech-badge"><i class="bi bi-broadcast-pin"></i> Webhooks</span>
+              <span class="tech-badge"><i class="bi bi-shield-lock-fill"></i> OAuth 2.0 &amp; HMAC</span>
+              <span class="tech-badge"><i class="bi bi-clock-history"></i> Cron Job</span>
+              <span class="tech-badge"><i class="devicon-mysql-original"></i> MySQL</span>
+   
+            </div>
+          </div>
+          <div
+            class="modal-footer d-flex justify-content-between align-items-center"
+          >
+            <span class="badge-internal">
+              <i class="bi bi-shield-lock-fill"></i>
+              Internal Middleware Service (Enterprise)
+            </span>
+            <button type="button" class="btn btn-ghost" data-bs-dismiss="modal">
+              Tutup
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // Scroll progress bar
+      const progress = document.getElementById("scrollProgress");
+      const updateProgress = () => {
+        const h = document.documentElement;
+        const scrolled = h.scrollTop / (h.scrollHeight - h.clientHeight);
+        progress.style.width = scrolled * 100 + "%";
+      };
+      document.addEventListener("scroll", updateProgress, { passive: true });
+      updateProgress();
+
+      // Scroll reveal
+      const revealEls = document.querySelectorAll(".reveal");
+      const io = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e) => {
+            if (e.isIntersecting) {
+              e.target.classList.add("is-visible");
+              io.unobserve(e.target);
+            }
+          });
+        },
+        { threshold: 0.15, rootMargin: "0px 0px -40px 0px" },
+      );
+      revealEls.forEach((el) => io.observe(el));
+
+      // Count-up stats
+      const animateCount = (el) => {
+        const target = parseInt(el.dataset.count, 10);
+        const suffix = el.dataset.suffix || "";
+        const duration = 1200;
+        const start = performance.now();
+        const tick = (now) => {
+          const p = Math.min((now - start) / duration, 1);
+          const eased = 1 - Math.pow(1 - p, 3);
+          el.textContent = Math.round(eased * target) + suffix;
+          if (p < 1) requestAnimationFrame(tick);
+        };
+        requestAnimationFrame(tick);
+      };
+      const statsEls = document.querySelectorAll("[data-count]");
+      const statIO = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((e) => {
+            if (e.isIntersecting) {
+              animateCount(e.target);
+              statIO.unobserve(e.target);
+            }
+          });
+        },
+        { threshold: 0 },
+      );
+      statsEls.forEach((el) => statIO.observe(el));
+
+      // Smooth anchor scrolling (skip links inside mobile menu — handled below)
+      document.querySelectorAll('a[href^="#"]').forEach((a) => {
+        if (a.closest("#mobileMenu")) return;
+        a.addEventListener("click", (ev) => {
+          const id = a.getAttribute("href");
+          if (id.length > 1) {
+            const target = document.querySelector(id);
+            if (target) {
+              ev.preventDefault();
+              target.scrollIntoView({ behavior: "smooth", block: "start" });
+            }
+          }
+        });
+      });
+
+      // Theme toggle (dark / light)
+      const themeToggle = document.getElementById("themeToggle");
+      const themeIcon = document.getElementById("themeIcon");
+      function applyTheme(t) {
+        document.documentElement.setAttribute("data-theme", t);
+        try {
+          localStorage.setItem("theme", t);
+        } catch (e) {}
+        if (themeIcon) {
+          themeIcon.className =
+            t === "dark" ? "bi bi-moon-stars-fill" : "bi bi-sun-fill";
+        }
+      }
+      applyTheme(document.documentElement.getAttribute("data-theme") || "dark");
+      if (themeToggle) {
+        themeToggle.addEventListener("click", () => {
+          const next =
+            document.documentElement.getAttribute("data-theme") === "dark"
+              ? "light"
+              : "dark";
+          applyTheme(next);
+        });
+      }
+      // Keep icon in sync when system theme changes and no manual choice saved
+      window
+        .matchMedia("(prefers-color-scheme: light)")
+        .addEventListener("change", (e) => {
+          let saved = null;
+          try {
+            saved = localStorage.getItem("theme");
+          } catch (err) {}
+          if (!saved) applyTheme(e.matches ? "light" : "dark");
+        });
+
+      // Close mobile menu on link click, then smooth-scroll after it fully closes
+      const mobileMenu = document.getElementById("mobileMenu");
+      if (mobileMenu && window.bootstrap) {
+        mobileMenu
+          .querySelectorAll('[data-bs-dismiss="offcanvas"]')
+          .forEach((el) => {
+            el.addEventListener("click", (ev) => {
+              ev.preventDefault();
+              const href = el.getAttribute("href");
+              const doScroll = () => {
+                if (href && href.length > 1) {
+                  const t = document.querySelector(href);
+                  if (t)
+                    t.scrollIntoView({ behavior: "smooth", block: "start" });
+                }
+              };
+              const inst = bootstrap.Offcanvas.getInstance(mobileMenu);
+              if (inst && mobileMenu.classList.contains("show")) {
+                const onHidden = () => {
+                  mobileMenu.removeEventListener(
+                    "hidden.bs.offcanvas",
+                    onHidden,
+                  );
+                  doScroll();
+                };
+                mobileMenu.addEventListener("hidden.bs.offcanvas", onHidden);
+                inst.hide();
+              } else {
+                doScroll();
+              }
+            });
+          });
+      }
+
+      // Splash Screen Counter Animation
+      (function () {
+        const splash = document.getElementById("splashScreen");
+        const splashBar = document.getElementById("splashBar");
+        const splashPercent = document.getElementById("splashPercent");
+        if (!splash || !splashBar || !splashPercent) return;
+
+        const prefersReduced = window.matchMedia(
+          "(prefers-reduced-motion: reduce)",
+        ).matches;
+        if (prefersReduced) {
+          splash.style.display = "none";
+          return;
+        }
+
+        document.body.style.overflow = "hidden";
+
+        const duration = 1600; // 1.6s smooth duration
+        const startTime = performance.now();
+
+        function updateSplash(now) {
+          const elapsed = now - startTime;
+          const rawProgress = Math.min(elapsed / duration, 1);
+          // Easing: starts swiftly, decelerates smoothly towards 100%
+          const ease = 1 - Math.pow(1 - rawProgress, 2.6);
+          const current = Math.round(ease * 100);
+
+          splashBar.style.width = current + "%";
+          splashPercent.textContent = current + "%";
+
+          if (rawProgress < 1) {
+            requestAnimationFrame(updateSplash);
+          } else {
+            splashBar.style.width = "100%";
+            splashPercent.textContent = "100%";
+            setTimeout(() => {
+              splash.classList.add("is-loaded");
+              document.body.style.overflow = "";
+              setTimeout(() => {
+                splash.style.display = "none";
+              }, 650);
+            }, 220);
+          }
+        }
+
+        requestAnimationFrame(updateSplash);
+      })();
+    </script>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Yusuf Rahmanto",
+        "jobTitle": "Full-Stack Developer",
+        "url": "https://yusufrhmntdev.github.io/",
+        "image": "https://yusufrhmntdev.github.io/sc-portofolio/profile-yusuf-modified.png",
+        "email": "mailto:yusufrahmanto99@gmail.com",
+        "sameAs": [
+          "https://yusufrhmntdev.github.io/yusufrhmntdev/",
+          "https://www.linkedin.com/in/yusuf-rahmanto-b8b005182/"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "ID"
+        },
+        "knowsAbout": [
+          "PHP",
+          "Laravel",
+          "Yii2",
+          "CodeIgniter",
+          "Vue.js",
+          "JavaScript",
+          "MySQL",
+          "MongoDB",
+          "REST API",
+          "SAP Business One Integration",
+          "Linux Server Administration"
+        ],
+        "knowsLanguage": ["id", "en"]
+      }
+    </script>
   </body>
 </html>
