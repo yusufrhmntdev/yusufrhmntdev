@@ -3,6 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-F13ZDX49FP"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-F13ZDX49FP");
+    </script>
     <script>
       // Set theme before first paint (no flash)
       (function () {
@@ -89,64 +102,125 @@
       <div class="splash-bg-glow"></div>
       <div class="splash-content">
         <div class="spidey-icon-wrap">
-          <svg class="spidey-icon" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Spider-Man Icon">
+          <svg
+            class="spidey-icon"
+            viewBox="0 0 120 120"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-label="Spider-Man Icon"
+          >
             <defs>
               <radialGradient id="spideyMaskGrad" cx="50%" cy="40%" r="60%">
-                <stop offset="0%" stop-color="#FF3838"/>
-                <stop offset="68%" stop-color="#D32F2F"/>
-                <stop offset="100%" stop-color="#8B0000"/>
+                <stop offset="0%" stop-color="#FF3838" />
+                <stop offset="68%" stop-color="#D32F2F" />
+                <stop offset="100%" stop-color="#8B0000" />
               </radialGradient>
-              <linearGradient id="spideyLensGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stop-color="#FFFFFF"/>
-                <stop offset="65%" stop-color="#EBF4FF"/>
-                <stop offset="100%" stop-color="#B4D5FE"/>
+              <linearGradient
+                id="spideyLensGrad"
+                x1="0%"
+                y1="0%"
+                x2="100%"
+                y2="100%"
+              >
+                <stop offset="0%" stop-color="#FFFFFF" />
+                <stop offset="65%" stop-color="#EBF4FF" />
+                <stop offset="100%" stop-color="#B4D5FE" />
               </linearGradient>
             </defs>
 
             <!-- Mask Base Shape (Tapered Chin & Jaw) -->
-            <path d="M60 10 C32 10 22 34 22 62 C22 84 38 106 52 112 C57 114 63 114 68 112 C82 106 98 84 98 62 C98 34 88 10 60 10 Z" 
-                  fill="url(#spideyMaskGrad)" stroke="#1a0000" stroke-width="2.5"/>
+            <path
+              d="M60 10 C32 10 22 34 22 62 C22 84 38 106 52 112 C57 114 63 114 68 112 C82 106 98 84 98 62 C98 34 88 10 60 10 Z"
+              fill="url(#spideyMaskGrad)"
+              stroke="#1a0000"
+              stroke-width="2.5"
+            />
 
             <!-- Center Vertical Web -->
-            <path d="M60 10 L60 113" stroke="#2B0505" stroke-width="1.8" stroke-linecap="round"/>
+            <path
+              d="M60 10 L60 113"
+              stroke="#2B0505"
+              stroke-width="1.8"
+              stroke-linecap="round"
+            />
 
             <!-- Radial Web Lines from Nose Bridge (60, 56) -->
-            <path d="M60 56 Q42 28 32 18" stroke="#2B0505" stroke-width="1.5"/>
-            <path d="M60 56 Q78 28 88 18" stroke="#2B0505" stroke-width="1.5"/>
-            <path d="M60 56 Q34 40 23 44" stroke="#2B0505" stroke-width="1.5"/>
-            <path d="M60 56 Q86 40 97 44" stroke="#2B0505" stroke-width="1.5"/>
-            <path d="M60 56 Q30 70 25 78" stroke="#2B0505" stroke-width="1.5"/>
-            <path d="M60 56 Q90 70 95 78" stroke="#2B0505" stroke-width="1.5"/>
-            <path d="M60 56 Q40 94 42 105" stroke="#2B0505" stroke-width="1.5"/>
-            <path d="M60 56 Q80 94 78 105" stroke="#2B0505" stroke-width="1.5"/>
+            <path d="M60 56 Q42 28 32 18" stroke="#2B0505" stroke-width="1.5" />
+            <path d="M60 56 Q78 28 88 18" stroke="#2B0505" stroke-width="1.5" />
+            <path d="M60 56 Q34 40 23 44" stroke="#2B0505" stroke-width="1.5" />
+            <path d="M60 56 Q86 40 97 44" stroke="#2B0505" stroke-width="1.5" />
+            <path d="M60 56 Q30 70 25 78" stroke="#2B0505" stroke-width="1.5" />
+            <path d="M60 56 Q90 70 95 78" stroke="#2B0505" stroke-width="1.5" />
+            <path
+              d="M60 56 Q40 94 42 105"
+              stroke="#2B0505"
+              stroke-width="1.5"
+            />
+            <path
+              d="M60 56 Q80 94 78 105"
+              stroke="#2B0505"
+              stroke-width="1.5"
+            />
 
             <!-- Concentric Arched Web Curves -->
             <!-- Forehead Arcs -->
-            <path d="M47 34 Q60 28 73 34" stroke="#2B0505" stroke-width="1.5" fill="none"/>
-            <path d="M37 23 Q60 15 83 23" stroke="#2B0505" stroke-width="1.5" fill="none"/>
-            
+            <path
+              d="M47 34 Q60 28 73 34"
+              stroke="#2B0505"
+              stroke-width="1.5"
+              fill="none"
+            />
+            <path
+              d="M37 23 Q60 15 83 23"
+              stroke="#2B0505"
+              stroke-width="1.5"
+              fill="none"
+            />
+
             <!-- Lower Face Arcs -->
-            <path d="M34 82 Q60 92 86 82" stroke="#2B0505" stroke-width="1.5" fill="none"/>
-            <path d="M44 98 Q60 105 76 98" stroke="#2B0505" stroke-width="1.5" fill="none"/>
+            <path
+              d="M34 82 Q60 92 86 82"
+              stroke="#2B0505"
+              stroke-width="1.5"
+              fill="none"
+            />
+            <path
+              d="M44 98 Q60 105 76 98"
+              stroke="#2B0505"
+              stroke-width="1.5"
+              fill="none"
+            />
 
             <!-- Left Eye -->
             <!-- Black Frame -->
-            <path d="M56 55 C52 46 41 33 26 38 C25 48 30 68 53 66 C55.5 66 56 61 56 55 Z" 
-                  fill="#0E1015" stroke="#000000" stroke-width="2"/>
+            <path
+              d="M56 55 C52 46 41 33 26 38 C25 48 30 68 53 66 C55.5 66 56 61 56 55 Z"
+              fill="#0E1015"
+              stroke="#000000"
+              stroke-width="2"
+            />
             <!-- White Lens with Metallic Blue-White Gradient -->
-            <path d="M53.5 55 C50 48 40 37 29 41 C28.5 48 32 64 50.5 63 C52.5 63 53.5 59 53.5 55 Z" 
-                  fill="url(#spideyLensGrad)"/>
+            <path
+              d="M53.5 55 C50 48 40 37 29 41 C28.5 48 32 64 50.5 63 C52.5 63 53.5 59 53.5 55 Z"
+              fill="url(#spideyLensGrad)"
+            />
 
             <!-- Right Eye -->
             <!-- Black Frame -->
-            <path d="M64 55 C68 46 79 33 94 38 C95 48 90 68 67 66 C64.5 66 64 61 64 55 Z" 
-                  fill="#0E1015" stroke="#000000" stroke-width="2"/>
+            <path
+              d="M64 55 C68 46 79 33 94 38 C95 48 90 68 67 66 C64.5 66 64 61 64 55 Z"
+              fill="#0E1015"
+              stroke="#000000"
+              stroke-width="2"
+            />
             <!-- White Lens with Metallic Blue-White Gradient -->
-            <path d="M66.5 55 C70 48 80 37 91 41 C91.5 48 88 64 69.5 63 C67.5 63 66.5 59 66.5 55 Z" 
-                  fill="url(#spideyLensGrad)"/>
+            <path
+              d="M66.5 55 C70 48 80 37 91 41 C91.5 48 88 64 69.5 63 C67.5 63 66.5 59 66.5 55 Z"
+              fill="url(#spideyLensGrad)"
+            />
           </svg>
         </div>
-        
+
         <div class="splash-title">Yusuf Rahmanto</div>
         <div class="splash-subtitle">
           <span class="splash-pulse-dot"></span>
@@ -170,11 +244,39 @@
           class="d-flex align-items-center gap-2 text-decoration-none"
         >
           <span class="logo-mark" aria-hidden="true">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M5 4 L10 11 L10 20" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M15 4 L10 11" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"/>
-              <path d="M10 11 H16 C18.2 11 19.5 9.5 19.5 7.5 C19.5 5.5 18.2 4 16 4 H10" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M14 11 L19 20" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"/>
+            <svg
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M5 4 L10 11 L10 20"
+                stroke="#FFFFFF"
+                stroke-width="2.4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M15 4 L10 11"
+                stroke="#FFFFFF"
+                stroke-width="2.4"
+                stroke-linecap="round"
+              />
+              <path
+                d="M10 11 H16 C18.2 11 19.5 9.5 19.5 7.5 C19.5 5.5 18.2 4 16 4 H10"
+                stroke="#FFFFFF"
+                stroke-width="2.4"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M14 11 L19 20"
+                stroke="#FFFFFF"
+                stroke-width="2.4"
+                stroke-linecap="round"
+              />
             </svg>
           </span>
           <span class="logo-text text-white">Yusuf Rahmanto</span>
@@ -221,11 +323,39 @@
         style="border-color: var(--border) !important"
       >
         <span class="logo-mark" aria-hidden="true">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M5 4 L10 11 L10 20" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M15 4 L10 11" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"/>
-            <path d="M10 11 H16 C18.2 11 19.5 9.5 19.5 7.5 C19.5 5.5 18.2 4 16 4 H10" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M14 11 L19 20" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round"/>
+          <svg
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5 4 L10 11 L10 20"
+              stroke="#FFFFFF"
+              stroke-width="2.4"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M15 4 L10 11"
+              stroke="#FFFFFF"
+              stroke-width="2.4"
+              stroke-linecap="round"
+            />
+            <path
+              d="M10 11 H16 C18.2 11 19.5 9.5 19.5 7.5 C19.5 5.5 18.2 4 16 4 H10"
+              stroke="#FFFFFF"
+              stroke-width="2.4"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M14 11 L19 20"
+              stroke="#FFFFFF"
+              stroke-width="2.4"
+              stroke-linecap="round"
+            />
           </svg>
         </span>
         <span id="mobileMenuLabel" class="logo-text text-white me-auto ms-2"
@@ -367,109 +497,209 @@
           <div class="col-lg-4 col-md-6 reveal" style="transition-delay: 0.15s">
             <div class="skill-group">
               <div class="skill-group-header">
-                <span class="skill-group-icon"><i class="bi bi-code-slash"></i></span>
+                <span class="skill-group-icon"
+                  ><i class="bi bi-code-slash"></i
+                ></span>
                 <h3 class="skill-group-title">Pengembangan Aplikasi</h3>
               </div>
-              <span class="skill-chip"><i class="devicon-php-plain"></i> PHP</span>
-              <span class="skill-chip"><i class="devicon-laravel-original"></i> Laravel</span>
-              <span class="skill-chip"><i class="devicon-yii-plain"></i> Yii2</span>
-              <span class="skill-chip"><i class="devicon-codeigniter-plain"></i> CodeIgniter</span>
-              <span class="skill-chip"><i class="devicon-javascript-plain"></i> JavaScript</span>
-              <span class="skill-chip"><i class="devicon-vuejs-plain"></i> Vue.js</span>
-              <span class="skill-chip"><i class="devicon-html5-plain"></i> HTML</span>
-              <span class="skill-chip"><i class="devicon-bootstrap-plain"></i> Bootstrap</span>
-              <span class="skill-chip"><i class="devicon-jquery-plain"></i> jQuery</span>
+              <span class="skill-chip"
+                ><i class="devicon-php-plain"></i> PHP</span
+              >
+              <span class="skill-chip"
+                ><i class="devicon-laravel-original"></i> Laravel</span
+              >
+              <span class="skill-chip"
+                ><i class="devicon-yii-plain"></i> Yii2</span
+              >
+              <span class="skill-chip"
+                ><i class="devicon-codeigniter-plain"></i> CodeIgniter</span
+              >
+              <span class="skill-chip"
+                ><i class="devicon-javascript-plain"></i> JavaScript</span
+              >
+              <span class="skill-chip"
+                ><i class="devicon-vuejs-plain"></i> Vue.js</span
+              >
+              <span class="skill-chip"
+                ><i class="devicon-html5-plain"></i> HTML</span
+              >
+              <span class="skill-chip"
+                ><i class="devicon-bootstrap-plain"></i> Bootstrap</span
+              >
+              <span class="skill-chip"
+                ><i class="devicon-jquery-plain"></i> jQuery</span
+              >
             </div>
           </div>
           <div class="col-lg-4 col-md-6 reveal" style="transition-delay: 0.2s">
             <div class="skill-group">
               <div class="skill-group-header">
-                <span class="skill-group-icon"><i class="bi bi-database-fill"></i></span>
+                <span class="skill-group-icon"
+                  ><i class="bi bi-database-fill"></i
+                ></span>
                 <h3 class="skill-group-title">Manajemen Database</h3>
               </div>
-              <span class="skill-chip"><i class="devicon-mysql-original"></i> MySQL</span>
-              <span class="skill-chip"><i class="devicon-mongodb-plain"></i> MongoDB</span>
-              <span class="skill-chip"><i class="bi bi-diagram-2"></i> Database Design</span>
-              <span class="skill-chip"><i class="bi bi-lightning-charge-fill"></i> Query Optimization</span>
+              <span class="skill-chip"
+                ><i class="devicon-mysql-original"></i> MySQL</span
+              >
+              <span class="skill-chip"
+                ><i class="devicon-mongodb-plain"></i> MongoDB</span
+              >
+              <span class="skill-chip"
+                ><i class="bi bi-diagram-2"></i> Database Design</span
+              >
+              <span class="skill-chip"
+                ><i class="bi bi-lightning-charge-fill"></i> Query
+                Optimization</span
+              >
             </div>
           </div>
           <div class="col-lg-4 col-md-6 reveal" style="transition-delay: 0.25s">
             <div class="skill-group">
               <div class="skill-group-header">
-                <span class="skill-group-icon"><i class="bi bi-diagram-3-fill"></i></span>
+                <span class="skill-group-icon"
+                  ><i class="bi bi-diagram-3-fill"></i
+                ></span>
                 <h3 class="skill-group-title">Integrasi API &amp; Sistem</h3>
               </div>
-              <span class="skill-chip"><i class="bi bi-arrow-left-right"></i> REST API</span>
+              <span class="skill-chip"
+                ><i class="bi bi-arrow-left-right"></i> REST API</span
+              >
               <span class="skill-chip"><i class="bi bi-braces"></i> JSON</span>
-              <span class="skill-chip"><i class="bi bi-puzzle-fill"></i> Third-Party API Integration</span>
-              <span class="skill-chip"><i class="bi bi-building-gear"></i> SAP Business One (SAP B1)</span>
-              <span class="skill-chip"><i class="bi bi-layers-half"></i> Middleware Development</span>
+              <span class="skill-chip"
+                ><i class="bi bi-puzzle-fill"></i> Third-Party API
+                Integration</span
+              >
+              <span class="skill-chip"
+                ><i class="bi bi-building-gear"></i> SAP Business One (SAP
+                B1)</span
+              >
+              <span class="skill-chip"
+                ><i class="bi bi-layers-half"></i> Middleware Development</span
+              >
             </div>
           </div>
           <div class="col-lg-4 col-md-6 reveal" style="transition-delay: 0.3s">
             <div class="skill-group">
               <div class="skill-group-header">
-                <span class="skill-group-icon"><i class="bi bi-hdd-network-fill"></i></span>
+                <span class="skill-group-icon"
+                  ><i class="bi bi-hdd-network-fill"></i
+                ></span>
                 <h3 class="skill-group-title">Infrastruktur IT &amp; Server</h3>
               </div>
-              <span class="skill-chip"><i class="devicon-ubuntu-plain"></i> Ubuntu Linux</span>
-              <span class="skill-chip"><i class="devicon-apache-plain"></i> Apache Web Server</span>
-              <span class="skill-chip"><i class="bi bi-sliders"></i> PHP Runtime Configuration</span>
-              <span class="skill-chip"><i class="bi bi-shield-shaded"></i> Firewall Configuration</span>
-              <span class="skill-chip"><i class="bi bi-terminal-fill"></i> SSH Security</span>
-              <span class="skill-chip"><i class="bi bi-globe2"></i> Domain Management</span>
-              <span class="skill-chip"><i class="bi bi-rocket-takeoff-fill"></i> Production Deployment</span>
-              <span class="skill-chip"><i class="bi bi-wrench-adjustable-circle-fill"></i> Server Troubleshooting</span>
+              <span class="skill-chip"
+                ><i class="devicon-ubuntu-plain"></i> Ubuntu Linux</span
+              >
+              <span class="skill-chip"
+                ><i class="devicon-apache-plain"></i> Apache Web Server</span
+              >
+              <span class="skill-chip"
+                ><i class="bi bi-sliders"></i> PHP Runtime Configuration</span
+              >
+              <span class="skill-chip"
+                ><i class="bi bi-shield-shaded"></i> Firewall
+                Configuration</span
+              >
+              <span class="skill-chip"
+                ><i class="bi bi-terminal-fill"></i> SSH Security</span
+              >
+              <span class="skill-chip"
+                ><i class="bi bi-globe2"></i> Domain Management</span
+              >
+              <span class="skill-chip"
+                ><i class="bi bi-rocket-takeoff-fill"></i> Production
+                Deployment</span
+              >
+              <span class="skill-chip"
+                ><i class="bi bi-wrench-adjustable-circle-fill"></i> Server
+                Troubleshooting</span
+              >
             </div>
           </div>
           <div class="col-lg-4 col-md-6 reveal" style="transition-delay: 0.35s">
             <div class="skill-group">
               <div class="skill-group-header">
-                <span class="skill-group-icon"><i class="bi bi-bar-chart-line-fill"></i></span>
+                <span class="skill-group-icon"
+                  ><i class="bi bi-bar-chart-line-fill"></i
+                ></span>
                 <h3 class="skill-group-title">
                   Business Intelligence &amp; Pelaporan
                 </h3>
               </div>
-              <span class="skill-chip"><i class="bi bi-pie-chart-fill"></i> Metabase Dashboard</span>
+              <span class="skill-chip"
+                ><i class="bi bi-pie-chart-fill"></i> Metabase Dashboard</span
+              >
             </div>
           </div>
           <div class="col-lg-4 col-md-6 reveal" style="transition-delay: 0.4s">
             <div class="skill-group">
               <div class="skill-group-header">
-                <span class="skill-group-icon"><i class="bi bi-shield-check"></i></span>
+                <span class="skill-group-icon"
+                  ><i class="bi bi-shield-check"></i
+                ></span>
                 <h3 class="skill-group-title">
                   Dukungan Pengguna &amp; Keamanan
                 </h3>
               </div>
-              <span class="skill-chip"><i class="bi bi-headset"></i> End-User Support</span>
-              <span class="skill-chip"><i class="bi bi-shield-check"></i> Application Maintenance</span>
-              <span class="skill-chip"><i class="bi bi-bug-fill"></i> Vulnerability Remediation</span>
+              <span class="skill-chip"
+                ><i class="bi bi-headset"></i> End-User Support</span
+              >
+              <span class="skill-chip"
+                ><i class="bi bi-shield-check"></i> Application
+                Maintenance</span
+              >
+              <span class="skill-chip"
+                ><i class="bi bi-bug-fill"></i> Vulnerability Remediation</span
+              >
             </div>
           </div>
           <div class="col-lg-4 col-md-6 reveal" style="transition-delay: 0.45s">
             <div class="skill-group">
               <div class="skill-group-header">
-                <span class="skill-group-icon"><i class="bi bi-briefcase-fill"></i></span>
+                <span class="skill-group-icon"
+                  ><i class="bi bi-briefcase-fill"></i
+                ></span>
                 <h3 class="skill-group-title">
                   Analisis Bisnis &amp; Koordinasi
                 </h3>
               </div>
-              <span class="skill-chip"><i class="bi bi-clipboard2-check-fill"></i> Business Requirements Analysis</span>
-              <span class="skill-chip"><i class="bi bi-chat-dots-fill"></i> User Coordination</span>
-              <span class="skill-chip"><i class="bi bi-lightbulb-fill"></i> Technical Problem Solving</span>
-              <span class="skill-chip"><i class="bi bi-graph-up-arrow"></i> Business Process Improvement</span>
+              <span class="skill-chip"
+                ><i class="bi bi-clipboard2-check-fill"></i> Business
+                Requirements Analysis</span
+              >
+              <span class="skill-chip"
+                ><i class="bi bi-chat-dots-fill"></i> User Coordination</span
+              >
+              <span class="skill-chip"
+                ><i class="bi bi-lightbulb-fill"></i> Technical Problem
+                Solving</span
+              >
+              <span class="skill-chip"
+                ><i class="bi bi-graph-up-arrow"></i> Business Process
+                Improvement</span
+              >
             </div>
           </div>
           <div class="col-lg-4 col-md-6 reveal" style="transition-delay: 0.5s">
             <div class="skill-group">
               <div class="skill-group-header">
-                <span class="skill-group-icon"><i class="bi bi-tools"></i></span>
+                <span class="skill-group-icon"
+                  ><i class="bi bi-tools"></i
+                ></span>
                 <h3 class="skill-group-title">Tools &amp; Lingkungan Kerja</h3>
               </div>
-              <span class="skill-chip"><i class="devicon-git-plain"></i> Git</span>
-              <span class="skill-chip"><i class="bi bi-google-play"></i> Google Play Console</span>
-              <span class="skill-chip"><i class="devicon-vscode-plain"></i> VS Code</span>
-              <span class="skill-chip"><i class="devicon-postman-plain"></i> Postman</span>
+              <span class="skill-chip"
+                ><i class="devicon-git-plain"></i> Git</span
+              >
+              <span class="skill-chip"
+                ><i class="bi bi-google-play"></i> Google Play Console</span
+              >
+              <span class="skill-chip"
+                ><i class="devicon-vscode-plain"></i> VS Code</span
+              >
+              <span class="skill-chip"
+                ><i class="devicon-postman-plain"></i> Postman</span
+              >
             </div>
           </div>
         </div>
@@ -1468,11 +1698,21 @@
             </div>
             <h4 style="margin-top: 24px">Teknologi yang Digunakan</h4>
             <div>
-              <span class="tech-badge"><i class="devicon-yii-plain"></i> Yii2</span>
-              <span class="tech-badge"><i class="devicon-php-plain"></i> PHP</span>
-              <span class="tech-badge"><i class="bi bi-arrow-left-right"></i> REST API</span>
-              <span class="tech-badge"><i class="devicon-mysql-original"></i> MySQL</span>
-              <span class="tech-badge"><i class="devicon-mongodb-plain"></i> MongoDB</span>
+              <span class="tech-badge"
+                ><i class="devicon-yii-plain"></i> Yii2</span
+              >
+              <span class="tech-badge"
+                ><i class="devicon-php-plain"></i> PHP</span
+              >
+              <span class="tech-badge"
+                ><i class="bi bi-arrow-left-right"></i> REST API</span
+              >
+              <span class="tech-badge"
+                ><i class="devicon-mysql-original"></i> MySQL</span
+              >
+              <span class="tech-badge"
+                ><i class="devicon-mongodb-plain"></i> MongoDB</span
+              >
             </div>
           </div>
           <div
@@ -1656,11 +1896,21 @@
             </div>
             <h4 style="margin-top: 24px">Teknologi yang Digunakan</h4>
             <div>
-              <span class="tech-badge"><i class="devicon-php-plain"></i> PHP</span>
-              <span class="tech-badge"><i class="devicon-yii-plain"></i> Yii2</span>
-              <span class="tech-badge"><i class="bi bi-arrow-left-right"></i> REST API</span>
-              <span class="tech-badge"><i class="devicon-mysql-original"></i> MySQL</span>
-              <span class="tech-badge"><i class="devicon-ubuntu-plain"></i> Ubuntu Linux</span>
+              <span class="tech-badge"
+                ><i class="devicon-php-plain"></i> PHP</span
+              >
+              <span class="tech-badge"
+                ><i class="devicon-yii-plain"></i> Yii2</span
+              >
+              <span class="tech-badge"
+                ><i class="bi bi-arrow-left-right"></i> REST API</span
+              >
+              <span class="tech-badge"
+                ><i class="devicon-mysql-original"></i> MySQL</span
+              >
+              <span class="tech-badge"
+                ><i class="devicon-ubuntu-plain"></i> Ubuntu Linux</span
+              >
             </div>
           </div>
           <div
@@ -1824,13 +2074,27 @@
 
             <h4 style="margin-top: 24px">Teknologi yang Digunakan</h4>
             <div>
-              <span class="tech-badge"><i class="devicon-php-plain"></i> PHP</span>
-              <span class="tech-badge"><i class="devicon-laravel-original"></i> Laravel</span>
-              <span class="tech-badge"><i class="devicon-vuejs-plain"></i> Vue JS</span>
-              <span class="tech-badge"><i class="bi bi-arrow-left-right"></i> REST API</span>
-              <span class="tech-badge"><i class="devicon-mysql-original"></i> MySQL</span>
-              <span class="tech-badge"><i class="devicon-bootstrap-plain"></i> Bootstrap</span>
-              <span class="tech-badge"><i class="devicon-ubuntu-plain"></i> Ubuntu Linux</span>
+              <span class="tech-badge"
+                ><i class="devicon-php-plain"></i> PHP</span
+              >
+              <span class="tech-badge"
+                ><i class="devicon-laravel-original"></i> Laravel</span
+              >
+              <span class="tech-badge"
+                ><i class="devicon-vuejs-plain"></i> Vue JS</span
+              >
+              <span class="tech-badge"
+                ><i class="bi bi-arrow-left-right"></i> REST API</span
+              >
+              <span class="tech-badge"
+                ><i class="devicon-mysql-original"></i> MySQL</span
+              >
+              <span class="tech-badge"
+                ><i class="devicon-bootstrap-plain"></i> Bootstrap</span
+              >
+              <span class="tech-badge"
+                ><i class="devicon-ubuntu-plain"></i> Ubuntu Linux</span
+              >
             </div>
           </div>
           <div
@@ -1949,13 +2213,27 @@
 
             <h4 style="margin-top: 24px">Teknologi yang Digunakan</h4>
             <div>
-              <span class="tech-badge"><i class="devicon-php-plain"></i> PHP</span>
-              <span class="tech-badge"><i class="devicon-laravel-plain"></i> Laravel</span>
-              <span class="tech-badge"><i class="devicon-javascript-plain"></i> JavaScript</span>
-              <span class="tech-badge"><i class="devicon-mysql-original"></i> MySQL</span>
-              <span class="tech-badge"><i class="devicon-bootstrap-plain"></i> Bootstrap</span>
-              <span class="tech-badge"><i class="devicon-apache-plain"></i> Apache</span>
-              <span class="tech-badge"><i class="devicon-ubuntu-plain"></i> Ubuntu Linux</span>
+              <span class="tech-badge"
+                ><i class="devicon-php-plain"></i> PHP</span
+              >
+              <span class="tech-badge"
+                ><i class="devicon-laravel-plain"></i> Laravel</span
+              >
+              <span class="tech-badge"
+                ><i class="devicon-javascript-plain"></i> JavaScript</span
+              >
+              <span class="tech-badge"
+                ><i class="devicon-mysql-original"></i> MySQL</span
+              >
+              <span class="tech-badge"
+                ><i class="devicon-bootstrap-plain"></i> Bootstrap</span
+              >
+              <span class="tech-badge"
+                ><i class="devicon-apache-plain"></i> Apache</span
+              >
+              <span class="tech-badge"
+                ><i class="devicon-ubuntu-plain"></i> Ubuntu Linux</span
+              >
             </div>
           </div>
           <div
@@ -2021,11 +2299,10 @@
               </li>
               <li>
                 <strong>Transaction Engine &amp; Callback Handling:</strong>
-                Membangun alur penukaran voucher, memvalidasi status
-                kode voucher Pluxee, convert voucher merchant dan kirim hasil convert vouchernya ke email
+                Membangun alur penukaran voucher, memvalidasi status kode
+                voucher Pluxee, convert voucher merchant dan kirim hasil convert
+                vouchernya ke email
               </li>
-             
-            
             </ul>
             <h4 style="margin-top: 24px">Fitur Utama</h4>
             <ul>
@@ -2037,11 +2314,8 @@
                 Legends
               </li>
               <li>Retail E-Gift Card Issuance: MAP, Matahari, Zalora</li>
-           
-              <li>
-                  Transaction Logging
-              </li>
-       
+
+              <li>Transaction Logging</li>
             </ul>
 
             <h4 style="margin-top: 24px">
@@ -2088,15 +2362,32 @@
 
             <h4 style="margin-top: 24px">Teknologi yang Digunakan</h4>
             <div>
-              <span class="tech-badge"><i class="devicon-php-plain"></i> PHP</span>
-              <span class="tech-badge"><i class="devicon-yii-plain"></i> Yii2</span>
-              <span class="tech-badge"><i class="bi bi-arrow-left-right"></i> REST API</span>
-              <span class="tech-badge"><i class="bi bi-puzzle-fill"></i> Third-Party API Integration</span>
-              <span class="tech-badge"><i class="bi bi-lightning-charge-fill"></i> Alterra Sepulsa API</span>
-              <span class="tech-badge"><i class="bi bi-gift-fill"></i> Qwikcilver API</span>
-              <span class="tech-badge"><i class="devicon-mysql-original"></i> MySQL</span>
-              <span class="tech-badge"><i class="devicon-bootstrap-plain"></i> Bootstrap</span>
-             
+              <span class="tech-badge"
+                ><i class="devicon-php-plain"></i> PHP</span
+              >
+              <span class="tech-badge"
+                ><i class="devicon-yii-plain"></i> Yii2</span
+              >
+              <span class="tech-badge"
+                ><i class="bi bi-arrow-left-right"></i> REST API</span
+              >
+              <span class="tech-badge"
+                ><i class="bi bi-puzzle-fill"></i> Third-Party API
+                Integration</span
+              >
+              <span class="tech-badge"
+                ><i class="bi bi-lightning-charge-fill"></i> Alterra Sepulsa
+                API</span
+              >
+              <span class="tech-badge"
+                ><i class="bi bi-gift-fill"></i> Qwikcilver API</span
+              >
+              <span class="tech-badge"
+                ><i class="devicon-mysql-original"></i> MySQL</span
+              >
+              <span class="tech-badge"
+                ><i class="devicon-bootstrap-plain"></i> Bootstrap</span
+              >
             </div>
           </div>
           <div class="modal-footer">
@@ -2166,13 +2457,11 @@
               </li>
               <li>
                 <strong>Search &amp; Multi-Filtering Engine:</strong> Membangun
-                fitur pencarian cepat berdasarkan nama merchant,  kota, dan kategori bisnis dengan
-                query untuk performa optimal.
+                fitur pencarian cepat berdasarkan nama merchant, kota, dan
+                kategori bisnis dengan query untuk performa optimal.
               </li>
               <li>
-                <strong
-                  >Merchant Database &</strong
-                >
+                <strong>Merchant Database &</strong>
                 Merancang struktur database relasional untuk menyimpan ribuan
                 outlet merchant partner, mengoptimalkan indexing koordinat
                 lintang/bujur (latitude/longitude)
@@ -2185,7 +2474,6 @@
                 mobile-friendly sehingga pengguna dapat dengan mudah mencari
                 merchant langsung melalui smartphone maupun desktop.
               </li>
-             
             </ul>
             <h4 style="margin-top: 24px">Fitur Utama</h4>
             <ul>
@@ -2193,18 +2481,13 @@
               <li>
                 Proximity Search based on User Geolocation (Radius Filtering)
               </li>
-              <li>
-                 Keyword Search (City, Brand)
-              </li>
+              <li>Keyword Search (City, Brand)</li>
               <li>
                 Detailed Merchant Profiles: Outlet Address, Operating Hours,
                 Accepted Vouchers &amp; Directions
               </li>
-              <li>
-                Fast Response Time with  Database Indexing
-              </li>
+              <li>Fast Response Time with Database Indexing</li>
               <li>Fully Responsive Design for Mobile &amp; Desktop Users</li>
-        
             </ul>
 
             <h4 style="margin-top: 24px">
@@ -2253,9 +2536,7 @@
                     src="sc-portofolio/lokasi-pluxee-5.png"
                     alt="Merchant Locator — Direktori Merchant Partner"
                   />
-                  <span
-                    >5. Lokasi Outlet Merchant</span
-                  >
+                  <span>5. Lokasi Outlet Merchant</span>
                 </div>
               </div>
               <div class="col-sm-6">
@@ -2264,24 +2545,38 @@
                     src="sc-portofolio/lokasi-pluxee-6.png"
                     alt="Merchant Locator — Detail Merchant Partner"
                   />
-                  <span
-                    >6. Penyebaran Outlet Merchant</span
-                  >
+                  <span>6. Penyebaran Outlet Merchant</span>
                 </div>
               </div>
             </div>
 
             <h4 style="margin-top: 24px">Teknologi yang Digunakan</h4>
             <div>
-              <span class="tech-badge"><i class="devicon-php-plain"></i> PHP</span>
-              <span class="tech-badge"><i class="devicon-yii-plain"></i> Yii2</span>
-              <span class="tech-badge"><i class="devicon-javascript-plain"></i> JavaScript</span>
-              <span class="tech-badge"><i class="bi bi-geo-alt-fill"></i> Maps API (Google Maps / Leaflet)</span>
-              <span class="tech-badge"><i class="bi bi-compass-fill"></i> Geolocation API</span>
-              <span class="tech-badge"><i class="devicon-mysql-original"></i> MySQL</span>
-              <span class="tech-badge"><i class="devicon-bootstrap-plain"></i> Bootstrap</span>
-              <span class="tech-badge"><i class="devicon-apache-plain"></i> Apache</span>
-     
+              <span class="tech-badge"
+                ><i class="devicon-php-plain"></i> PHP</span
+              >
+              <span class="tech-badge"
+                ><i class="devicon-yii-plain"></i> Yii2</span
+              >
+              <span class="tech-badge"
+                ><i class="devicon-javascript-plain"></i> JavaScript</span
+              >
+              <span class="tech-badge"
+                ><i class="bi bi-geo-alt-fill"></i> Maps API (Google Maps /
+                Leaflet)</span
+              >
+              <span class="tech-badge"
+                ><i class="bi bi-compass-fill"></i> Geolocation API</span
+              >
+              <span class="tech-badge"
+                ><i class="devicon-mysql-original"></i> MySQL</span
+              >
+              <span class="tech-badge"
+                ><i class="devicon-bootstrap-plain"></i> Bootstrap</span
+              >
+              <span class="tech-badge"
+                ><i class="devicon-apache-plain"></i> Apache</span
+              >
             </div>
           </div>
           <div class="modal-footer">
@@ -2332,8 +2627,8 @@
               Solusi ini mengotomatisasi alur pemrosesan pesanan (order
               fulfillment pipeline) Bertanggung jawab atas perancangan integrasi
               sistem, otentikasi API berstandar keamanan tinggi (HMAC signature
-              &amp; OAuth 2.0 token management), pengelolaan automated cron job &amp; task
-              scheduler untuk pemrosesan transaksi berkala
+              &amp; OAuth 2.0 token management), pengelolaan automated cron job
+              &amp; task scheduler untuk pemrosesan transaksi berkala
             </p>
             <h4>Peran &amp; Tanggung Jawab</h4>
             <p>
@@ -2348,14 +2643,15 @@
                 mencakup autentikasi token OAuth 2.0, signature HMAC security,
                 endpoint order fetching & create Voucher
               </li>
-             
+
               <li>
                 <strong>Automated Cron Job &amp; Task Scheduler:</strong>
-                Membangun skrip cron job di server Linux yang berjalan otomatis secara berkala
-                untuk menarik (fetch), memvalidasi, dan memproses data transaksi serta
-                sinkronisasi status pesanan secara konsisten dan terhindar dari duplikasi.
+                Membangun skrip cron job di server Linux yang berjalan otomatis
+                secara berkala untuk menarik (fetch), memvalidasi, dan memproses
+                data transaksi serta sinkronisasi status pesanan secara
+                konsisten dan terhindar dari duplikasi.
               </li>
-             
+
               <li>
                 <strong>Error Handling, Audit Trail &amp; Logging:</strong>
                 Menyediakan sistem logging transaksi komprehensif untuk memantau
@@ -2376,21 +2672,13 @@
                 Official Marketplace Open API Integration (Lazada Open Platform
                 &amp; Blibli Merchant API)
               </li>
-              <li>
-                Real-Time Webhook  &amp; Automated Cron Job Scheduler
-              </li>
-              <li>
-                Order Status Synchronization
-              </li>
+              <li>Real-Time Webhook &amp; Automated Cron Job Scheduler</li>
+              <li>Order Status Synchronization</li>
               <li>
                 Secure HMAC-SHA256 Signature &amp; OAuth 2.0 Token Refresh
                 Management
               </li>
-              <li>
-                Transaction Audit
-                Logging
-              </li>
-             
+              <li>Transaction Audit Logging</li>
             </ul>
 
             <h4 style="margin-top: 24px">
@@ -2432,8 +2720,8 @@
                   style="font-size: 13px; color: var(--muted); text-align: left"
                 >
                   Alur Integrasi API Marketplace (Lazada &amp; Blibli) &rarr;
-                  Middleware Transformation &amp; Cron Job &rarr; Database
-                  &amp; Internal Systems
+                  Middleware Transformation &amp; Cron Job &rarr; Database &amp;
+                  Internal Systems
                 </span>
                 <a
                   href="sc-portofolio/middleware-architecture.jpeg"
@@ -2448,16 +2736,34 @@
 
             <h4 style="margin-top: 24px">Teknologi yang Digunakan</h4>
             <div>
-              <span class="tech-badge"><i class="devicon-php-plain"></i> PHP</span>
-              <span class="tech-badge"><i class="devicon-yii-plain"></i> Yii2</span>
-              <span class="tech-badge"><i class="bi bi-arrow-left-right"></i> REST API</span>
-              <span class="tech-badge"><i class="bi bi-shop"></i> Lazada Open Platform API</span>
-              <span class="tech-badge"><i class="bi bi-bag-check-fill"></i> Blibli Merchant API</span>
-              <span class="tech-badge"><i class="bi bi-broadcast-pin"></i> Webhooks</span>
-              <span class="tech-badge"><i class="bi bi-shield-lock-fill"></i> OAuth 2.0 &amp; HMAC</span>
-              <span class="tech-badge"><i class="bi bi-clock-history"></i> Cron Job</span>
-              <span class="tech-badge"><i class="devicon-mysql-original"></i> MySQL</span>
-   
+              <span class="tech-badge"
+                ><i class="devicon-php-plain"></i> PHP</span
+              >
+              <span class="tech-badge"
+                ><i class="devicon-yii-plain"></i> Yii2</span
+              >
+              <span class="tech-badge"
+                ><i class="bi bi-arrow-left-right"></i> REST API</span
+              >
+              <span class="tech-badge"
+                ><i class="bi bi-shop"></i> Lazada Open Platform API</span
+              >
+              <span class="tech-badge"
+                ><i class="bi bi-bag-check-fill"></i> Blibli Merchant API</span
+              >
+              <span class="tech-badge"
+                ><i class="bi bi-broadcast-pin"></i> Webhooks</span
+              >
+              <span class="tech-badge"
+                ><i class="bi bi-shield-lock-fill"></i> OAuth 2.0 &amp;
+                HMAC</span
+              >
+              <span class="tech-badge"
+                ><i class="bi bi-clock-history"></i> Cron Job</span
+              >
+              <span class="tech-badge"
+                ><i class="devicon-mysql-original"></i> MySQL</span
+              >
             </div>
           </div>
           <div
